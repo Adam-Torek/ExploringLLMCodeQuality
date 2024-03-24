@@ -1,8 +1,23 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import BitsAndBytesConfig
 
-import transformers
 import torch
 from evalplus.data import get_mbpp_plus, get_human_eval_plus, write_jsonl
+from enum import Enum
+
+class QuantizeType(Enum):
+    NONE = 0
+    EIGHT_BIT = 1
+    FOUR_BIT = 2
+
+
+def get_output_name(model_name, quantization):
+    model_name = model_name.split("/")[1]
+    if quantization == QuantizeType.EIGHT_BIT:
+        model_name += "_8_bit"
+    elif quantization == QuantizeType.FOUR_BIT:
+        model_name += "_4_bit"
+    return model_name
 
 def generate_code(prompt, model, tokenizer, device):
         inputs = tokenizer.encode(prompt, return_tensors="pt").to(device)
@@ -23,17 +38,27 @@ def gen_dataset_samples(dataset, model, tokenizer, device):
     ]
 
 def main():
+    quantize = QuantizeType.EIGHT_BIT
     device = "cuda"
-    model_id = "mistralai/Mistral-7B-Instruct-v0.2"
-
+    model_id = "codellama/CodeLlama-7b-hf"
+    model = None
+    q_conf = None
     tokenizer = AutoTokenizer.from_pretrained(model_id)
-    model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.float16).to(device)
+    if quantize != QuantizeType.NONE:
+        if quantize == QuantizeType.EIGHT_BIT:
+            q_conf = BitsAndBytesConfig(load_in_8bit=True)
+        elif quantize == QuantizeType.FOUR_BIT:
+            q_conf = BitsAndBytesConfig(load_in_4bit=True)
+    
+    model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.float16, quantization_config=q_conf)
+    if quantize == QuantizeType.NONE:
+        model.to(device)
 
     humaneval_results = gen_dataset_samples(get_human_eval_plus(), model, tokenizer, device)
     mbpp_results = gen_dataset_samples(get_mbpp_plus(), model, tokenizer, device)
 
-    write_jsonl("humaneval_" + model_id.split("/")[1] + "" + ".jsonl", humaneval_results)
-    write_jsonl("mbpp_" + model_id.split("/")[1] + "" + ".jsonl", mbpp_results)
+    write_jsonl("humaneval_" + get_output_name(model_id, quantize) + "" + ".jsonl", humaneval_results)
+    write_jsonl("mbpp_" + get_output_name(model_id, quantize) + "" + ".jsonl", mbpp_results)
 
 if __name__ == "__main__":
     main()
