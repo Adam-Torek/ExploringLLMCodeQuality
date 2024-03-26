@@ -37,12 +37,15 @@ def generate_code(prompts, model, tokenizer, device):
                          num_return_sequences = 1, 
                          eos_token_id = tokenizer.eos_token_id, 
                          pad_token_id = tokenizer.eos_token_id,
-                         max_length=1024)
+                         max_length=2048)
         return tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
-def gen_dataset_samples(dataset, model, tokenizer, device):
+def gen_dataset_samples(dataset, model, tokenizer, device, quantize):
     
-    batch_size = 4
+    batch_size = 1
+    if quantize != QuantizeType.NONE:
+        batch_size = 4
+   
     results = []
     for batch in chunked(dataset.items(), batch_size):
         prompts = []
@@ -59,6 +62,14 @@ def gen_dataset_samples(dataset, model, tokenizer, device):
 
 
 def main():
+    models = {"none":{"CodeLlama":"codellama/CodeLlama-7b-hf",
+                    "WizardCoder":"WizardLM/WizardCoder-3B-V1.0",
+                    "StarCoder2":"bigcode/starcoder2-7b",
+                    "Mistral":"mistralai/Mistral-7B-Instruct-v0.2"},
+            "8_bit":{"CodeLlama":"TheBloke/CodeLlama-7B-AWQ",
+                    "WizardCoder":"WizardLM/WizardCoder-3B-V1.0",
+                    "StarCoder2":"bigcode/starcoder2-7b",
+                    "Mistral":"TheBloke/Mistral-7B-Instruct-v0.1-AWQ"}}
     quantize = QuantizeType.EIGHT_BIT
     device = "cuda"
     model_id = "TheBloke/CodeLlama-7B-AWQ"
@@ -77,8 +88,8 @@ def main():
     model.to(device)
     model.config.pad_token_id = model.config.bos_token_id
 
-    humaneval_results = gen_dataset_samples(get_human_eval_plus(), model, tokenizer, device)
-    mbpp_results = gen_dataset_samples(get_mbpp_plus(), model, tokenizer, device)
+    humaneval_results = gen_dataset_samples(get_human_eval_plus(), model, tokenizer, device, quantize)
+    mbpp_results = gen_dataset_samples(get_mbpp_plus(), model, tokenizer, device, quantize)
 
     write_jsonl("humaneval_" + get_output_name(model_id, quantize) + "" + ".jsonl", humaneval_results)
     write_jsonl("mbpp_" + get_output_name(model_id, quantize) + "" + ".jsonl", mbpp_results)
