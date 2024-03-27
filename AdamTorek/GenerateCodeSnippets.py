@@ -37,7 +37,7 @@ def generate_code(prompts, model, tokenizer, device):
                          num_return_sequences = 1, 
                          eos_token_id = tokenizer.eos_token_id, 
                          pad_token_id = tokenizer.eos_token_id,
-                         max_length=2048)
+                         max_length=1024)
         return tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
 def gen_dataset_samples(dataset, model, tokenizer, device, quantize):
@@ -54,7 +54,7 @@ def gen_dataset_samples(dataset, model, tokenizer, device, quantize):
             prompts.append(problem[1]["prompt"])
             task_ids.append(problem[0])
         outputs = generate_code(prompts, model, tokenizer, device)
-        for i in range(0, batch_size):
+        for i in range(0, len(batch)):
             results.append(dict(task_id = task_ids[i], solution=outputs[i]))
     
     return results
