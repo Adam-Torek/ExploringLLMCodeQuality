@@ -19,12 +19,17 @@ def write_solution_to_file(task_id, solution, output_dir):
         f.write(solution)
 
 def process_jsonl_files(jsonl_files, output_dir):
-    os.makedirs(output_dir, exist_ok=True)
     for jsonl_file in jsonl_files:
+        # Extract the base filename without extension
+        base_filename = os.path.splitext(os.path.basename(jsonl_file))[0]
+        # Create the output directory based on the JSON file name
+        output_subdir = os.path.join(output_dir, base_filename)
+        os.makedirs(output_subdir, exist_ok=True)
+        # Process the JSON file
         for task_id, solution in extract_solution_from_jsonl(jsonl_file):
-            write_solution_to_file(task_id, solution, output_dir)
+            write_solution_to_file(task_id, solution, output_subdir)
 
 if __name__ == "__main__":
-    jsonl_files = ["../humaneval_CodeLlama-7b-hf.jsonl"]  
+    jsonl_files = ["../samples.jsonl"]  
     output_directory = "output_python_files" 
     process_jsonl_files(jsonl_files, output_directory)
