@@ -15,7 +15,7 @@ def extract_solution_from_jsonl(jsonl_file):
 def write_solution_to_file(task_id, solution, output_dir):
     file_path = os.path.join(output_dir, task_id.replace("/", os.sep) + ".py")
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
-    with open(file_path, 'w') as f:
+    with open(file_path, 'w', encoding="utf-8") as f:
         f.write(solution)
 
 def process_jsonl_files(jsonl_files, output_dir):
@@ -30,6 +30,6 @@ def process_jsonl_files(jsonl_files, output_dir):
             write_solution_to_file(task_id, solution, output_subdir)
 
 if __name__ == "__main__":
-    jsonl_files = ["../samples.jsonl"]  
+    jsonl_files = ["../mbpp_WizardCoder-3B-V1.0.jsonl"]  
     output_directory = "output_python_files" 
     process_jsonl_files(jsonl_files, output_directory)
