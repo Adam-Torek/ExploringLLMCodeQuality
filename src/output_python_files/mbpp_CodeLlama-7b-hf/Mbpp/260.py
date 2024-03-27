@@ -1,14 +1,14 @@
 """
-Write a function to find the nth newman–shanks–williams prime number.
+Write a function to find the nth newmanâ€“shanksâ€“williams prime number.
 assert newman_prime(3) == 7
 """
 
 
 def newman_prime(n):
     """
-    Find the nth newman–shanks–williams prime number.
+    Find the nth newmanâ€“shanksâ€“williams prime number.
     :param n: the index of the prime number to find
-    :return: the nth newman–shanks–williams prime number
+    :return: the nth newmanâ€“shanksâ€“williams prime number
     """
     if n == 1:
         return 1

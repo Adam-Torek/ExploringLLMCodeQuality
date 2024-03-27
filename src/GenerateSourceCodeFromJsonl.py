@@ -1,5 +1,6 @@
 import json
 import os
+import glob
 
 def extract_solution_from_jsonl(jsonl_file):
     with open(jsonl_file, 'r') as f:
@@ -30,6 +31,6 @@ def process_jsonl_files(jsonl_files, output_dir):
             write_solution_to_file(task_id, solution, output_subdir)
 
 if __name__ == "__main__":
-    jsonl_files = ["../mbpp_WizardCoder-3B-V1.0.jsonl"]  
+    jsonl_files = glob.glob("../*.jsonl")
     output_directory = "output_python_files" 
     process_jsonl_files(jsonl_files, output_directory)

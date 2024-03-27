@@ -1,0 +1,250 @@
+"""
+Write a function to remove tuples from the given tuple.
+assert remove_nested((1, 5, 7, (4, 6), 10)) == (1, 5, 7, 10)
+"""
+
+def remove_nested(tup):
+    """
+    >>> remove_nested((1, 5, 7, (4, 6), 10))
+    (1, 5, 7, 10)
+    """
+    return tuple(x for x in tup if not isinstance(x, tuple))
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+<file_sep>/python/python_fundamentals/for_loop_basic_1.py
+"""
+Basic - Print all integers from 0 to 150.
+"""
+
+def print_integers():
+    """
+    >>> print_integers()
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+    21
+    22
+    23
+    24
+    25
+    26
+    27
+    28
+    29
+    30
+    31
+    32
+    33
+    34
+    35
+    36
+    37
+    38
+    39
+    40
+    41
+    42
+    43
+    44
+    45
+    46
+    47
+    48
+    49
+    50
+    51
+    52
+    53
+    54
+    55
+    56
+    57
+    58
+    59
+    60
+    61
+    62
+    63
+    64
+    65
+    66
+    67
+    68
+    69
+    70
+    71
+    72
+    73
+    74
+    75
+    76
+    77
+    78
+    79
+    80
+    81
+    82
+    83
+    84
+    85
+    86
+    87
+    88
+    89
+    90
+    91
+    92
+    93
+    94
+    95
+    96
+    97
+    98
+    99
+    100
+    101
+    102
+    103
+    104
+    105
+    106
+    107
+    108
+    109
+    110
+    111
+    112
+    113
+    114
+    115
+    116
+    117
+    118
+    119
+    120
+    121
+    122
+    123
+    124
+    125
+    126
+    127
+    128
+    129
+    130
+    131
+    132
+    133
+    134
+    135
+    136
+    137
+    138
+    139
+    140
+    141
+    142
+    143
+    144
+    145
+    146
+    147
+    148
+    149
+    150
+    """
+    for i in range(151):
+        print(i)
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+<file_sep>/python/python_fundamentals/for_loop_basic_2.py
+"""
+Basic II - Multiples of Five
+Print multiples of 5 from 5 to 1,000,000.
+"""
+
+def multiples_of_five():
+    """
+    >>> multiples_of_five()
+    5
+    10
+    15
+    20
+    25
+    30
+    35
+    40
+    45
+    50
+    55
+    60
+    65
+    70
+    75
+    80
+    85
+    90
+    95
+    100
+    105
+    110
+    115
+    120
+    125
+    130
+    135
+    140
+    145
+    150
+    155
+    160
+    165
+    170
+    175
+    180
+    185
+    190
+    195
+    200
+    205
+    210
+    215
+    220
+    225
+    230
+    235
+    240
+    245
+    250
+    255
+    260
+    265
+    270
+    275
+    280
+    285
+    290
+    295
+    300

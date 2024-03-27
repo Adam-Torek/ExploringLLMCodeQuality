@@ -18,7 +18,7 @@ def nth_octagonal(n):
 print(nth_octagonal(1000))
 <file_sep>/python/project_euler/001-050/004.py
 """
-A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 Ã— 99.
 
 Find the largest palindrome made from the product of two 3-digit numbers.
 """
