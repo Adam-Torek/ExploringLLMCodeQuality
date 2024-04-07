@@ -67,15 +67,19 @@ def main():
                     "StarCoder2":"bigcode/starcoder2-7b",
                     "Mistral":"mistralai/Mistral-7B-Instruct-v0.2"},
             "8_bit":{"CodeLlama":"TheBloke/CodeLlama-7B-AWQ",
-                    "WizardCoder":"WizardLM/WizardCoder-3B-V1.0",
+                    "WizardCoder":"models_quantized/WizardCoder-3B-awq",
                     "StarCoder2":"bigcode/starcoder2-7b",
                     "Mistral":"TheBloke/Mistral-7B-Instruct-v0.1-AWQ"}}
     quantize = QuantizeType.EIGHT_BIT
     device = "cuda"
-    model_id = "TheBloke/Mistral-7B-Instruct-v0.1-AWQ"
+    model_id = "models_quantized/WizardCoder-3B-awq"
     q_conf = None
 
-    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    tokenizer = None
+    if "WizardCoder" in model_id and QuantizeType != None:
+        tokenizer = AutoTokenizer.from_pretrained(model_id, padding_side="left")
+    else:
+        tokenizer = AutoTokenizer.from_pretrained(model_id)
     tokenizer.pad_token = tokenizer.bos_token
 
     if quantize != QuantizeType.NONE:
