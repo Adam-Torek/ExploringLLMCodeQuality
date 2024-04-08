@@ -70,7 +70,7 @@ def main():
                     "WizardCoder":"models_quantized/WizardCoder-3B-awq",
                     "StarCoder2":"bigcode/starcoder2-7b",
                     "Mistral":"TheBloke/Mistral-7B-Instruct-v0.1-AWQ"}}
-    quantize = QuantizeType.EIGHT_BIT
+    quantize = QuantizeType.FOUR_BIT
     device = "cuda"
     model_id = "models_quantized/WizardCoder-3B-awq"
     q_conf = None
