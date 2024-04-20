@@ -2,12 +2,12 @@ import subprocess
 import glob
 import json
 import ast
-import re
+from ResultUtils import process_model_name
 
 def main():
     results_plus = {}
     results_normal = {}
-    files_to_evaluate = glob.glob("humaneval_*.jsonl") + glob.glob("mbpp_*.jsonl")
+    files_to_evaluate = glob.glob("generated_code/*.jsonl")
     for jsonl in files_to_evaluate:
         benchmark = ""
         model_name = ""
@@ -26,24 +26,7 @@ def main():
         plus_benchmark_score = ast.literal_eval(benchmark_score.split("\n")[-2])["pass@1"]
         normal_benchmark_score = ast.literal_eval(benchmark_score.split("\n")[-4])["pass@1"]
 
-        model_name = model_name.replace("_"," ")
-        model_name = model_name.replace("-", " ")
-        model_name = model_name.replace(".jsonl","")
-        model_name = model_name.replace("b hf","B")
-        model_name = re.sub(" v[0-9].[0-9]","", model_name)
-        model_name = re.sub(" V[0-9].[0-9]","", model_name)
-        
-        quant = ""
-        if "8 bit" in model_name:
-            quant = "8 bit"
-            model_name = model_name.replace(" AWQ 8 bit","")
-            model_name = model_name.replace(" awq 8 bit","")
-        elif "4 bit" in model_name:
-            quant = "4 bit"
-            model_name = model_name.replace(" AWQ 4 bit","")
-            model_name = model_name.replace(" awq 4 bit","")
-        else:
-            quant = "unquantized"
+        model_name, quant = process_model_name(model_name)
 
         if model_name not in results_plus:
             results_plus[model_name] = {}
