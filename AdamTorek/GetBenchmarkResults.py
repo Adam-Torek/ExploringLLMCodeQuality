@@ -2,7 +2,7 @@ import subprocess
 import glob
 import json
 import ast
-from ResultUtils import process_model_name
+from ResultUtils import get_model_name_benchmark_quant
 
 def main():
     results_plus = {}
@@ -26,7 +26,7 @@ def main():
         plus_benchmark_score = ast.literal_eval(benchmark_score.split("\n")[-2])["pass@1"]
         normal_benchmark_score = ast.literal_eval(benchmark_score.split("\n")[-4])["pass@1"]
 
-        model_name, quant = process_model_name(model_name)
+        model_name, quant = get_model_name_benchmark_quant(model_name)
 
         if model_name not in results_plus:
             results_plus[model_name] = {}
