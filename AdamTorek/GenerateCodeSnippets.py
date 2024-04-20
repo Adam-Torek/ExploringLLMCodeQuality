@@ -43,7 +43,7 @@ def generate_code(prompts, model, tokenizer, device):
 def gen_dataset_samples(dataset, model, tokenizer, device, quantize):
     
     batch_size = 1
-    if quantize != QuantizeType.NONE:
+    if quantize != QuantizeType.EIGHT_BIT:
         batch_size = 4
    
     results = []
@@ -70,9 +70,9 @@ def main():
                     "WizardCoder":"models_quantized/WizardCoder-3B-awq",
                     "StarCoder2":"bigcode/starcoder2-7b",
                     "Mistral":"TheBloke/Mistral-7B-Instruct-v0.1-AWQ"}}
-    quantize = QuantizeType.NONE
+    quantize = QuantizeType.EIGHT_BIT
     device = "cuda"
-    model_id = "codellama/CodeLlama-7b-hf"
+    model_id = "TheBloke/Mistral-7B-Instruct-v0.1-AWQ"
     q_conf = None
 
     tokenizer = None

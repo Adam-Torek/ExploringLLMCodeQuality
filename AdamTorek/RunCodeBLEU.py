@@ -8,7 +8,8 @@ def main():
     human_eval = get_human_eval_plus().items()
     mbpp = get_mbpp_plus().items()
     bleu_scores_output = {}
-    for result in glob.glob("generated_code/*.jsonl"):
+    res_i = 1
+    for result in sorted(glob.glob("generated_code/*.jsonl")):
         model_name, benchmark, quant = get_model_name_benchmark_quant(result)
 
         generated_list = []
@@ -34,12 +35,13 @@ def main():
 
         avg_codebleu_scores = calc_codebleu(human_solutions, generated_solutions, lang="python", tokenizer=None)["codebleu"]
         
-        print(f"Average CodeBLEU score for model {model_name} on quantization {quant} for benchmark {benchmark} is {round(avg_codebleu_scores, 5)}")
-        
+        print(f"{res_i}: Average CodeBLEU score for model {model_name} on quantization {quant} for benchmark {benchmark} is {round(avg_codebleu_scores, 5)}")
+        res_i += 1
+
         bleu_scores_output = put_score_into_dict(bleu_scores_output, model_name, benchmark, quant, avg_codebleu_scores)
 
     with open("codebleu_results.json","w") as outfile:
-        json.dump(avg_codebleu_scores, outfile)
+        json.dump(bleu_scores_output, outfile)
     
 
 if __name__ == "__main__":

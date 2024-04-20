@@ -2,21 +2,14 @@ import subprocess
 import glob
 import json
 import ast
-from ResultUtils import get_model_name_benchmark_quant
+from ResultUtils import get_model_name_benchmark_quant, put_score_into_dict
 
 def main():
     results_plus = {}
     results_normal = {}
-    files_to_evaluate = glob.glob("generated_code/*.jsonl")
+    files_to_evaluate = sorted(glob.glob("generated_code/*.jsonl"))
     for jsonl in files_to_evaluate:
-        benchmark = ""
-        model_name = ""
-        if "humaneval" in jsonl:
-            benchmark = "humaneval"
-            model_name = jsonl[len("humaneval_"):]
-        elif "mbpp" in jsonl:
-            benchmark = "mbpp"
-            model_name = jsonl[len("mbpp_"):]
+        model_name, benchmark, quant = get_model_name_benchmark_quant(jsonl)
         result = subprocess.run(["evalplus.evaluate",
                                 "--dataset",benchmark,
                                 "--samples",jsonl], 
@@ -26,20 +19,8 @@ def main():
         plus_benchmark_score = ast.literal_eval(benchmark_score.split("\n")[-2])["pass@1"]
         normal_benchmark_score = ast.literal_eval(benchmark_score.split("\n")[-4])["pass@1"]
 
-        model_name, quant = get_model_name_benchmark_quant(model_name)
-
-        if model_name not in results_plus:
-            results_plus[model_name] = {}
-            results_normal[model_name] = {}
-        if benchmark not in results_plus[model_name]:
-            results_plus[model_name][benchmark] = {}
-            results_normal[model_name][benchmark] = {}
-        
-        results_plus[model_name][benchmark][quant] = plus_benchmark_score
-        results_normal[model_name][benchmark][quant] = normal_benchmark_score
-        print(f"Results on {benchmark} dataset for model {model_name} with quantization {quant}:")
-        print(results_plus[model_name][benchmark][quant])
-        print(results_normal[model_name][benchmark][quant])
+        results_plus = put_score_into_dict(results_plus, model_name, benchmark, quant, plus_benchmark_score)
+        results_normal = put_score_into_dict(results_plus, model_name, benchmark, quant, normal_benchmark_score)
     
     with open("all_benchmark_results_plus.json","w") as outfile:
         json.dump(results_plus, outfile)
