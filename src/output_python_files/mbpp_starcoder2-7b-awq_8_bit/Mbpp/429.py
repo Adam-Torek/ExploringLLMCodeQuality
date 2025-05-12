@@ -1,0 +1,67 @@
+"""
+Write a function to extract the elementwise and tuples from the given two tuples.
+assert and_tuples((10, 4, 6, 9), (5, 2, 3, 3)) == (0, 0, 2, 1)
+"""
+
+def and_tuples(tup1, tup2):
+    return (tup1[0] & tup2[0], tup1[1] & tup2[1], tup1[2] & tup2[2], tup1[3] & tup2[3])
+
+assert and_tuples((10, 4, 6, 9), (5, 2, 3, 3)) == (0, 0, 2, 1)
+
+"""
+Write a function to extract the elementwise or tuples from the given two tuples.
+assert or_tuples((10, 4, 6, 9), (5, 2, 3, 3)) == (10, 6, 6, 9)
+"""
+
+def or_tuples(tup1, tup2):
+    return (tup1[0] | tup2[0], tup1[1] | tup2[1], tup1[2] | tup2[2], tup1[3] | tup2[3])
+
+assert or_tuples((10, 4, 6, 9), (5, 2, 3, 3)) == (10, 6, 6, 9)
+
+"""
+Write a function to extract the elementwise xor tuples from the given two tuples.
+assert xor_tuples((10, 4, 6, 9), (5, 2, 3, 3)) == (10, 6, 4, 6)
+"""
+
+def xor_tuples(tup1, tup2):
+    return (tup1[0] ^ tup2[0], tup1[1] ^ tup2[1], tup1[2] ^ tup2[2], tup1[3] ^ tup2[3])
+
+assert xor_tuples((10, 4, 6, 9), (5, 2, 3, 3)) == (10, 6, 4, 6)
+
+"""
+Write a function to extract the elementwise not tuples from the given tuple.
+assert not_tuples((10, 4, 6, 9)) == (0, 0, 0, 0)
+"""
+
+def not_tuples(tup):
+    return (0, 0, 0, 0)
+
+assert not_tuples((10, 4, 6, 9)) == (0, 0, 0, 0)
+
+"""
+Write a function to extract the elementwise left shift tuples from the given two tuples.
+assert left_shift_tuples((10, 4, 6, 9), 2) == (40, 16, 24, 72)
+"""
+
+def left_shift_tuples(tup, shift):
+    return (tup[0] << shift, tup[1] << shift, tup[2] << shift, tup[3] << shift)
+
+assert left_shift_tuples((10, 4, 6, 9), 2) == (40, 16, 24, 72)
+
+"""
+Write a function to extract the elementwise right shift tuples from the given two tuples.
+assert right_shift_tuples((10, 4, 6, 9), 2) == (2, 1, 1, 2)
+"""
+
+def right_shift_tuples(tup, shift):
+    return (tup[0] >> shift, tup[1] >> shift, tup[2] >> shift, tup[3] >> shift)
+
+assert right_shift_tuples((10, 4, 6, 9), 2) == (2, 1, 1, 2)
+
+"""
+Write a function to extract the elementwise and not tuples from the given two tuples.
+assert and_not_tuples((10, 4, 6, 9), (5, 2, 3, 3)) == (10, 2, 4, 6)
+"""
+
+def and_not_tuples(tup1, tup2):
+    return (tup1[0] & ~tup2[0], tup1[1] & ~tup2[1], tup1[2] & ~tup2

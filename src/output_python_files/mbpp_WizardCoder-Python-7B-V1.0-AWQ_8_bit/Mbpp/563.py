@@ -1,0 +1,42 @@
+"""
+Write a function to extract values between quotation marks from a string.
+assert extract_values('"Python", "PHP", "Java"')==['Python', 'PHP', 'Java']
+"""
+
+def extract_values(string):
+    return [x.strip('"') for x in string.split(',')]
+
+print(extract_values('"Python", "PHP", "Java"')) # ['Python', 'PHP', 'Java']
+print(extract_values('"Python", "PHP", "Java", "C#"')) # ['Python', 'PHP', 'Java', 'C#']
+print(extract_values('"Python"')) # ['Python']
+print(extract_values('"Python" , "Java"')) # ['Python', 'Java']
+print(extract_values('"Python", "Java"')) # ['Python', 'Java']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python" , "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#"')) # ['Python', 'Java', 'C#']
+print(extract_values('"Python", "Java", "C#

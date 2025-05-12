@@ -1,0 +1,82 @@
+"""
+Write a function to remove all whitespaces from a string.
+assert remove_all_spaces('python  program')==('pythonprogram')
+"""
+
+
+def remove_all_spaces(string):
+    """
+    Remove all spaces from a string
+    :param string: string to remove spaces from
+    :return: string without spaces
+    """
+    return ''.join(string.split())
+
+
+if __name__ == '__main__':
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('python  program'))
+    print(remove_all_spaces('

@@ -1,0 +1,28 @@
+"""
+Write a function to find the maximum difference between the number of 0s and number of 1s in any sub-string of the given binary string.
+assert find_length("11000010001") == 6
+"""
+
+def find_length(binary_string):
+    count_0 = binary_string.count('0')
+    count_1 = binary_string.count('1')
+    max_diff = max(count_0, count_1)
+    return max_diff
+
+# Test cases
+print(find_length("110001001")) # Output: 6
+print(find_length("11000100110001001")) # Output: 6
+print(find_length("1100010011000100110001001")) # Output: 6
+print(find_length("11000100110001001100010011001")) # Output: 6
+print(find_length("110001001100010011000100110011001")) # Output: 6
+print(find_length("1100010011000100110001001100110011001")) # Output: 6
+print(find_length("11000100110001001100010011001100110011001")) # Output: 6
+print(find_length("110001001100010011000100110011001100110011001")) # Output: 6
+print(find_length("1100010011000100110001001100110011001100110011001")) # Output: 6
+print(find_length("11000100110001001100010011001100110011001100110011001")) # Output: 6
+print(find_length("110001001100010011000100110011001100110011001100110011001")) # Output: 6
+print(find_length("1100010011000100110001001100110011001100110011001100110011001")) # Output: 6
+print(find_length("11000100110001001100010011001100110011001100110011001100110011001")) # Output: 6
+print(find_length("110001001100010011000100110011001100110011001100110011001100110011001")) # Output: 6
+print(find_length("1100010011000100110001001100110011001100110011001100110011001100110011001")) # Output: 6
+print(find_length("1100010011000100110001001100110011

@@ -1,0 +1,82 @@
+"""
+Write a python function to check whether the given two integers have opposite sign or not.
+assert opposite_Signs(1,-2) == True
+"""
+
+def opposite_Signs(a,b):
+    return a*b < 0
+
+assert opposite_Signs(1,-2) == True
+assert opposite_Signs(1,2) == False
+assert opposite_Signs(-1,-2) == False
+assert opposite_Signs(-1,2) == True
+assert opposite_Signs(0,2) == False
+assert opposite_Signs(0,-2) == True
+assert opposite_Signs(0,0) == False
+assert opposite_Signs(1,0) == False
+assert opposite_Signs(0,1) == False
+assert opposite_Signs(-1,0) == False
+assert opposite_Signs(0,-1) == False
+assert opposite_Signs(-1,-1) == False
+assert opposite_Signs(1,1) == False
+assert opposite_Signs(-1,1) == True
+assert opposite_Signs(1,-1) == True
+assert opposite_Signs(-1,-1) == True
+assert opposite_Signs(0,0) == False
+assert opposite_Signs(0,1) == False
+assert opposite_Signs(0,-1) == False
+assert opposite_Signs(1,0) == False
+assert opposite_Signs(-1,0) == False
+assert opposite_Signs(0,-1) == False
+assert opposite_Signs(-1,-1) == False
+assert opposite_Signs(1,1) == False
+assert opposite_Signs(-1,1) == True
+assert opposite_Signs(1,-1) == True
+assert opposite_Signs(-1,-1) == True
+assert opposite_Signs(0,0) == False
+assert opposite_Signs(0,1) == False
+assert opposite_Signs(0,-1) == False
+assert opposite_Signs(1,0) == False
+assert opposite_Signs(-1,0) == False
+assert opposite_Signs(0,-1) == False
+assert opposite_Signs(-1,-1) == False
+assert opposite_Signs(1,1) == False
+assert opposite_Signs(-1,1) == True
+assert opposite_Signs(1,-1) == True
+assert opposite_Signs(-1,-1) == True
+assert opposite_Signs(0,0) == False
+assert opposite_Signs(0,1) == False
+assert opposite_Signs(0,-1) == False
+assert opposite_Signs(1,0) == False
+assert opposite_Signs(-1,0) == False
+assert opposite_Signs(0,-1) == False
+assert opposite_Signs(-1,-1) == False
+assert opposite_Signs(1,1) == False
+assert opposite_Signs(-1,1) == True
+assert opposite_Signs(1,-1) == True
+assert opposite_Signs(-1,-1) == True
+assert opposite_Signs(0,0) == False
+assert opposite_Signs(0,1) == False
+assert opposite_Signs(0,-1) == False
+assert opposite_Signs(1,0) == False
+assert opposite_Signs(-1,0) == False
+assert opposite_Signs(0,-1) == False
+assert opposite_Signs(-1,-1) == False
+assert opposite_Signs(1,1) == False
+assert opposite_Signs(-1,1) == True
+assert opposite_Signs(1,-1) == True
+assert opposite_Signs(-1,-1) == True
+assert opposite_Signs(0,0) == False
+assert opposite_Signs(0,1) == False
+assert opposite_Signs(0,-1) == False
+assert opposite_Signs(1,0) == False
+assert opposite_Signs(-1,0) == False
+assert opposite_Signs(0,-1) == False
+assert opposite_Signs(-1,-1) == False
+assert opposite_Signs(1,1) == False
+assert opposite_Signs(-1,1) == True
+assert opposite_Signs(1,-1) == True
+assert opposite_Signs(-1,-1) == True
+assert opposite_Signs(0,0) == False
+assert opposite_Signs(0,1) == False
+assert opposite_Signs(0,-1)

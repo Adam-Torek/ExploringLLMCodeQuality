@@ -31,6 +31,6 @@ def process_jsonl_files(jsonl_files, output_dir):
             write_solution_to_file(task_id, solution, output_subdir)
 
 if __name__ == "__main__":
-    jsonl_files = glob.glob("../*.jsonl")
+    jsonl_files = glob.glob("../generated_code/generated_output/*.jsonl")
     output_directory = "output_python_files" 
     process_jsonl_files(jsonl_files, output_directory)

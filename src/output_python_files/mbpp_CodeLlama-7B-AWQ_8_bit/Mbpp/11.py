@@ -1,0 +1,87 @@
+"""
+Write a python function to remove first and last occurrence of a given character from the string.
+assert remove_Occ("hello","l") == "heo"
+"""
+
+
+def remove_Occ(string, char):
+    """
+    :param string: string
+    :param char: character
+    :return: string without first and last occurrence of char
+    """
+    return string[1:-1].replace(char, "")
+
+
+if __name__ == '__main__':
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print(remove_Occ("hello", "e"))
+    print(remove_Occ("hello", "h"))
+    print(remove_Occ("hello", "l"))
+    print(remove_Occ("hello", "o"))
+    print

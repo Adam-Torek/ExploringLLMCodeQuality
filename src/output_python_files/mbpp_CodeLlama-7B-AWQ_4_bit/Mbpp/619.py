@@ -1,0 +1,29 @@
+"""
+Write a function to move all the numbers to the end of the given string.
+assert move_num('I1love143you55three3000thousand') == 'Iloveyouthreethousand1143553000'
+"""
+
+
+def move_num(string):
+    """
+    :param string: str
+    :return: str
+    """
+    nums = []
+    for i in string:
+        if i.isdigit():
+            nums.append(i)
+    return string.replace(''.join(nums), '') + ''.join(nums)
+
+
+if __name__ == '__main__':
+    print(move_num('I1love143you55three3000thousand'))
+    print(move_num('I1love143you55three3000thousand1143553000'))
+    print(move_num('I1love143you55three3000thousand11435530001143553000'))
+    print(move_num('I1love143you55three3000thousand114355300011435530001143553000'))
+    print(move_num('I1love143you55three3000thousand1143553000114355300011435530001143553000'))
+    print(move_num('I1love143you55three3000thousand11435530001143553000114355300011435530001143553000'))
+    print(move_num('I1love143you55three3000thousand114355300011435530001143553000114355300011435530001143553000'))
+    print(move_num('I1love143you55three3000thousand1143553000114355300011435530001143553000114355300011435530001143553000'))
+    print(move_num('I1love143you55three3000thousand114355300011435530001143553000114355300011435530001143553000114355300011435530001143553000'))
+    print(move_num('I1love143you55three3000thousand11435530001143553000114355300011435530001143553000114355300011435530001143553000114355300011435530001143553000114355300011435530001143553000114355300011435530001143553000114355300011435530001143553000114355300011435530001

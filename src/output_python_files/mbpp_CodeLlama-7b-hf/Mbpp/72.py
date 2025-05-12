@@ -1,0 +1,84 @@
+"""
+Write a python function to check whether the given number can be represented as the difference of two squares or not.
+assert dif_Square(5) == True
+"""
+
+
+def dif_Square(n):
+    for i in range(1, n + 1):
+        for j in range(1, n + 1):
+            if i * i + j * j == n:
+                return True
+    return False
+
+
+if __name__ == '__main__':
+    print(dif_Square(5))
+    print(dif_Square(12))
+    print(dif_Square(13))
+    print(dif_Square(14))
+    print(dif_Square(15))
+    print(dif_Square(16))
+    print(dif_Square(17))
+    print(dif_Square(18))
+    print(dif_Square(19))
+    print(dif_Square(20))
+    print(dif_Square(21))
+    print(dif_Square(22))
+    print(dif_Square(23))
+    print(dif_Square(24))
+    print(dif_Square(25))
+    print(dif_Square(26))
+    print(dif_Square(27))
+    print(dif_Square(28))
+    print(dif_Square(29))
+    print(dif_Square(30))
+    print(dif_Square(31))
+    print(dif_Square(32))
+    print(dif_Square(33))
+    print(dif_Square(34))
+    print(dif_Square(35))
+    print(dif_Square(36))
+    print(dif_Square(37))
+    print(dif_Square(38))
+    print(dif_Square(39))
+    print(dif_Square(40))
+    print(dif_Square(41))
+    print(dif_Square(42))
+    print(dif_Square(43))
+    print(dif_Square(44))
+    print(dif_Square(45))
+    print(dif_Square(46))
+    print(dif_Square(47))
+    print(dif_Square(48))
+    print(dif_Square(49))
+    print(dif_Square(50))
+    print(dif_Square(51))
+    print(dif_Square(52))
+    print(dif_Square(53))
+    print(dif_Square(54))
+    print(dif_Square(55))
+    print(dif_Square(56))
+    print(dif_Square(57))
+    print(dif_Square(58))
+    print(dif_Square(59))
+    print(dif_Square(60))
+    print(dif_Square(61))
+    print(dif_Square(62))
+    print(dif_Square(63))
+    print(dif_Square(64))
+    print(dif_Square(65))
+    print(dif_Square(66))
+    print(dif_Square(67))
+    print(dif_Square(68))
+    print(dif_Square(69))
+    print(dif_Square(70))
+    print(dif_Square(71))
+    print(dif_Square(72))
+    print(dif_Square(73))
+    print(dif_Square(74))
+    print(dif_Square(75))
+    print(dif_Square(76))
+    print(dif_Square(77))
+    print(dif_Square(78))
+    print(dif_S

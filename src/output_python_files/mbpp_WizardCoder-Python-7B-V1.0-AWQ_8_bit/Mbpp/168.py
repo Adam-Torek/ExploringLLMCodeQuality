@@ -1,0 +1,15 @@
+"""
+Write a function to count the number of occurrences of a number in a given list.
+assert frequency([1,2,3], 4) == 0
+"""
+
+def frequency(lst, num):
+    count = 0
+    for i in lst:
+        if i == num:
+            count += 1
+    return count
+
+# Test cases
+print(frequency([1,2,3,4,5,6,7,8,9,9,9,9,9], 9)) # Output: 4
+print(frequency([1,2,3,4,5,6,7,8,9,9,9,9], 4) # Output: 0

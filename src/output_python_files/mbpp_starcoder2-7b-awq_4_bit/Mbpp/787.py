@@ -1,0 +1,46 @@
+"""
+Write a function that matches a string that has an a followed by three 'b'.
+assert not text_match_three("ac")
+"""
+
+def text_match_three(text):
+    return text.find("aaa")!= -1
+
+print(text_match_three("ac"))
+print(text_match_three("abc"))
+print(text_match_three("aaaa"))
+print(text_match_three("aaaaa"))
+print(text_match_three("aaaaaa"))
+print(text_match_three("aaaaaaa"))
+print(text_match_three("aaaaaaab"))
+print(text_match_three("aaaaaaabbb"))
+print(text_match_three("aaaaaaabbbbbb"))
+print(text_match_three("aaaaaaabbbbbbaaaa"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaa"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaab"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbb"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbb"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaa"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaa"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaab"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbb"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbb"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaa"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaa"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaab"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbb"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbb"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaa"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaa"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaab"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbb"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbb"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaa"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaa"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaab"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbb"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbb"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaa"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaa"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaaaab"))
+print(text_match_three("aaaaaaabbbbbbaaaaaaa

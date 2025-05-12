@@ -1,0 +1,61 @@
+"""
+Write a python function to count the number of equal numbers from three given integers.
+assert test_three_equal(1,1,1) == 3
+"""
+
+
+def test_three_equal(a, b, c):
+    return sum(1 for x in [a, b, c] if x == a)
+
+
+if __name__ == '__main__':
+    print(test_three_equal(1, 1, 1))
+    print(test_three_equal(1, 1, 2))
+    print(test_three_equal(1, 2, 2))
+    print(test_three_equal(1, 2, 3))
+    print(test_three_equal(1, 2, 4))
+    print(test_three_equal(1, 2, 5))
+    print(test_three_equal(1, 2, 6))
+    print(test_three_equal(1, 2, 7))
+    print(test_three_equal(1, 2, 8))
+    print(test_three_equal(1, 2, 9))
+    print(test_three_equal(1, 2, 10))
+    print(test_three_equal(1, 2, 11))
+    print(test_three_equal(1, 2, 12))
+    print(test_three_equal(1, 2, 13))
+    print(test_three_equal(1, 2, 14))
+    print(test_three_equal(1, 2, 15))
+    print(test_three_equal(1, 2, 16))
+    print(test_three_equal(1, 2, 17))
+    print(test_three_equal(1, 2, 18))
+    print(test_three_equal(1, 2, 19))
+    print(test_three_equal(1, 2, 20))
+    print(test_three_equal(1, 2, 21))
+    print(test_three_equal(1, 2, 22))
+    print(test_three_equal(1, 2, 23))
+    print(test_three_equal(1, 2, 24))
+    print(test_three_equal(1, 2, 25))
+    print(test_three_equal(1, 2, 26))
+    print(test_three_equal(1, 2, 27))
+    print(test_three_equal(1, 2, 28))
+    print(test_three_equal(1, 2, 29))
+    print(test_three_equal(1, 2, 30))
+    print(test_three_equal(1, 2, 31))
+    print(test_three_equal(1, 2, 32))
+    print(test_three_equal(1, 2, 33))
+    print(test_three_equal(1, 2, 34))
+    print(test_three_equal(1, 2, 35))
+    print(test_three_equal(1, 2, 36))
+    print(test_three_equal(1, 2, 37))
+    print(test_three_equal(1, 2, 38))
+    print(test_three_equal(1, 2, 39))
+    print(test_three_equal(1, 2, 40))
+    print(test_three_equal(1, 2, 41))
+    print(test_three_equal(1, 2, 42))
+    print(test_three_equal(1, 2, 43))
+    print(test_three_equal(1, 2, 44))
+    print(test_three_equal(1, 2, 45))
+    print(test_three_equal(1, 2, 46))
+    print(test_three_equal(1, 2, 47))
+    print(test_three_equal(1, 2, 48))
+    print(test_three_equal(1, 2

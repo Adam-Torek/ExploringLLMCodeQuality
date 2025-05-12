@@ -1,0 +1,11 @@
+"""
+Write a python function to toggle bits of the number except the first and the last bit. https://www.geeksforgeeks.org/toggle-bits-number-expect-first-last-bits/
+assert toggle_middle_bits(9) == 15
+"""
+
+def toggle_middle_bits(num):
+    """
+    Toggle bits of the number except the first and the last bit.
+    """
+    # Mask to toggle all bits except first and last bit
+    mask = (1 << 2:30) | (1 << (len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[0:len(bin(num)[

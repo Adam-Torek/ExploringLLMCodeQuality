@@ -1,0 +1,81 @@
+"""
+Write a function to find the circumference of a circle.
+assert math.isclose(circle_circumference(10), 62.830000000000005, rel_tol=0.001)
+"""
+
+import math
+
+
+def circle_circumference(radius):
+    """
+    Calculate the circumference of a circle.
+    """
+    return 2 * math.pi * radius
+
+
+if __name__ == "__main__":
+    print(circle_circumference(10))
+    print(circle_circumference(20))
+    print(circle_circumference(30))
+    print(circle_circumference(40))
+    print(circle_circumference(50))
+    print(circle_circumference(60))
+    print(circle_circumference(70))
+    print(circle_circumference(80))
+    print(circle_circumference(90))
+    print(circle_circumference(100))
+    print(circle_circumference(110))
+    print(circle_circumference(120))
+    print(circle_circumference(130))
+    print(circle_circumference(140))
+    print(circle_circumference(150))
+    print(circle_circumference(160))
+    print(circle_circumference(170))
+    print(circle_circumference(180))
+    print(circle_circumference(190))
+    print(circle_circumference(200))
+    print(circle_circumference(210))
+    print(circle_circumference(220))
+    print(circle_circumference(230))
+    print(circle_circumference(240))
+    print(circle_circumference(250))
+    print(circle_circumference(260))
+    print(circle_circumference(270))
+    print(circle_circumference(280))
+    print(circle_circumference(290))
+    print(circle_circumference(300))
+    print(circle_circumference(310))
+    print(circle_circumference(320))
+    print(circle_circumference(330))
+    print(circle_circumference(340))
+    print(circle_circumference(350))
+    print(circle_circumference(360))
+    print(circle_circumference(370))
+    print(circle_circumference(380))
+    print(circle_circumference(390))
+    print(circle_circumference(400))
+    print(circle_circumference(410))
+    print(circle_circumference(420))
+    print(circle_circumference(430))
+    print(circle_circumference(440))
+    print(circle_circumference(450))
+    print(circle_circumference(460))
+    print(circle_circumference(470))
+    print(circle_circumference(480))
+    print(circle_circumference(490))
+    print(circle_circumference(500))
+    print(circle_circumference(510))
+    print(circle_circumference(520))
+    print(circle_circumference(530))
+    print(circle_circumference(540))
+    print(circle_circumference(550))
+    print(circle_circumference(560))
+    print(circle_circumference(570))
+    print(circle_circumference(580))
+    print(circle_circumference(590))
+    print(circle_circumference(600))
+    print(circle_circumference(610))
+    print(circle_circumference(620))
+    print(circle_circumference(630))
+    print(circle_circumference(640))
+    print(circle_circumference(650))
