@@ -16,4 +16,4 @@ def find_lucas(n):
         return b
 
 assert find_lucas(9) == 76
-print("Test passed")</s>
+print("Test passed")

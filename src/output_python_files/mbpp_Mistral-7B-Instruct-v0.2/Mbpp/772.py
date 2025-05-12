@@ -8,4 +8,4 @@ def remove_length(string, k):
     return ' '.join(filtered_words)
 
 # Test case
-assert remove_length('The person is most value tet', 3) == 'person is most value'</s>
+assert remove_length('The person is most value tet', 3) == 'person is most value'

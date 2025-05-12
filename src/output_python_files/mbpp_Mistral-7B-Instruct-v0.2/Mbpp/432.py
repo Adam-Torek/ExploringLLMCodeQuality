@@ -12,4 +12,4 @@ def area(a, b, c):
     # The area of a trapezium is given by the formula: area = (a + b) * h / 2
     return ((a + b) * c) / 2
 
-assert median_trapezium(15, 25, 35) == 20</s>
+assert median_trapezium(15, 25, 35) == 20

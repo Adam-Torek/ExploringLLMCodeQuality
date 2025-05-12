@@ -20,4 +20,4 @@ def long_words(n, string_of_words):
 # Test the function
 assert long_words(3,"python is a programming language")==['python','programming','language']
 assert long_words(5,"the quick brown fox jumps over the lazy dog")==['jumps','lazy']
-assert long_words(1,"the quick brown fox jumps over the lazy dog")==[]</s>
+assert long_words(1,"the quick brown fox jumps over the lazy dog")==[]

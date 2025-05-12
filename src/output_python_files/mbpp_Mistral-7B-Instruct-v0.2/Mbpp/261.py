@@ -15,4 +15,4 @@ def division_elements(tuple1, tuple2):
     return result
 
 # Test the function
-assert division_elements((10, 4, 6, 9),(5, 2, 3, 3)) == (2, 2, 2, 3)</s>
+assert division_elements((10, 4, 6, 9),(5, 2, 3, 3)) == (2, 2, 2, 3)

@@ -28,4 +28,4 @@ def car_race_collision(n: int):
 
 if __name__ == "__main__":
     n = int(input())
-    print(car_race_collision(n))</s>
+    print(car_race_collision(n))

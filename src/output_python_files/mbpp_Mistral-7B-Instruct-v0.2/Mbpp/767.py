@@ -21,4 +21,4 @@ if __name__ == "__main__":
     numbers = [1, 1, 1, 1]
     sum = 2
     assert get_pairs_count(numbers, sum) == 6
-    print("Test passed!")</s>
+    print("Test passed!")

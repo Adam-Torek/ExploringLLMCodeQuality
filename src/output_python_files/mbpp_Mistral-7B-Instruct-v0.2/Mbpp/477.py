@@ -15,4 +15,4 @@ def is_lower(string):
 assert is_lower("InValid") == "invalid"
 assert is_lower("HeLLo") == "hello"
 assert is_lower("123") == "123"
-assert is_lower("") == ""</s>
+assert is_lower("") == ""

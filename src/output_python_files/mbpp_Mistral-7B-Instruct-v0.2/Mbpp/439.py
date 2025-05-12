@@ -9,4 +9,4 @@ def multiple_to_single(numbers):
     """
     return int(''.join(map(str, numbers)))
 
-assert multiple_to_single([11, 33, 50]) == 113350</s>
+assert multiple_to_single([11, 33, 50]) == 113350

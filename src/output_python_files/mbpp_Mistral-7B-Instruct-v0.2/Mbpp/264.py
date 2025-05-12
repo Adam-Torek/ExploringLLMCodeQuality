@@ -20,4 +20,4 @@ assert dog_age(10) == 70
 assert dog_age(15) == 105
 assert dog_age(2) == 14
 assert dog_age(7) == 49
-assert dog_age(0) == 0</s>
+assert dog_age(0) == 0

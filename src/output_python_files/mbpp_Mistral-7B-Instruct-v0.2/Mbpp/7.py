@@ -9,4 +9,4 @@ def find_char_long(string):
     """
     words = string.split()
     result = set(word for word in words if len(word) >= 4)
-    return result</s>
+    return result

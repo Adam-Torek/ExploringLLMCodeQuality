@@ -16,4 +16,4 @@ def first_repeated_char(string):
         # Otherwise, add it to the dictionary with a count of 1
         char_count[char] = 1
     # If no character is repeated, return None
-    return None</s>
+    return None

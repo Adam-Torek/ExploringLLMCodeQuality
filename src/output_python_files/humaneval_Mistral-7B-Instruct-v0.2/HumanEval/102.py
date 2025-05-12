@@ -21,4 +21,4 @@ print(choose_num(12, 15))
 print(choose_num(13, 12))
 print(choose_num(10, 10))
 print(choose_num(1, 10))
-print(choose_num(10, 1))</s>
+print(choose_num(10, 1))

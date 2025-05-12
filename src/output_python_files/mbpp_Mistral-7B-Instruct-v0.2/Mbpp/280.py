@@ -21,4 +21,4 @@ assert sequential_search([11,23,58,31,56,77,43,12,65,19],12) == (True, 9)
 assert sequential_search([11,23,58,31,56,77,43,12,65,19],10) == (False, -1)
 assert sequential_search([], 1) == (False, -1)
 assert sequential_search([1], 1) == (True, 0)
-assert sequential_search([1], 2) == (False, -1)</s>
+assert sequential_search([1], 2) == (False, -1)

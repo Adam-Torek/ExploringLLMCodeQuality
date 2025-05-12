@@ -23,4 +23,4 @@ def rounded_avg(n, m):
 print(rounded_avg(1, 5))
 print(rounded_avg(7, 5))
 print(rounded_avg(10, 20))
-print(rounded_avg(20, 33))</s>
+print(rounded_avg(20, 33))

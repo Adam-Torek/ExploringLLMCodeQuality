@@ -12,4 +12,4 @@ def count_integer(lst):
     Returns:
     int: The number of integer elements in the list.
     """
-    return sum(1 for i in lst if isinstance(i, int))</s>
+    return sum(1 for i in lst if isinstance(i, int))

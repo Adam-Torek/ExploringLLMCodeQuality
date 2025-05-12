@@ -11,4 +11,4 @@ def find_substring(arr, substr):
     for string in arr:
         if substr in string:
             return True
-    return False</s>
+    return False

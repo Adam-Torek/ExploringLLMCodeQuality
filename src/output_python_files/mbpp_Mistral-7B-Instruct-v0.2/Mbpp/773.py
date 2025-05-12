@@ -14,4 +14,4 @@ def occurance_substring(string, substring):
 # Test the function
 assert list(occurance_substring('python programming, python language','python')) == [('python', 0, 6), ('python', 13, 20)]
 assert list(occurance_substring('python programming, python language','java')) == []
-assert list(occurance_substring('python programming, python language','python ')) == [('python', 0, 6), ('python', 23, 29)]</s>
+assert list(occurance_substring('python programming, python language','python ')) == [('python', 0, 6), ('python', 23, 29)]

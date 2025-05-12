@@ -14,4 +14,3 @@ def tetrahedral_number(n):
 
 if __name__ == "__main__":
     print(tetrahedral_number(5))
-</s>

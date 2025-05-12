@@ -11,4 +11,4 @@ def text_match_wordz(text):
 
 # Test the function
 assert text_match_wordz("pythonz.") == True
-assert text_match_wordz("the quick brown fox jumps over the lazy dog") == False</s>
+assert text_match_wordz("the quick brown fox jumps over the lazy dog") == False

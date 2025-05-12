@@ -30,4 +30,3 @@ def sum_of_divisors(n):
 
 if __name__ == '__main__':
     print(amicable_numbers_sum(999))
-</s>

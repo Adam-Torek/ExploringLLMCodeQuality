@@ -13,4 +13,4 @@ def perimeter_pentagon(sides_length):
     perimeter = sides_number * side_length
     return perimeter
 
-assert perimeter_pentagon(5) == 25</s>
+assert perimeter_pentagon(5) == 25

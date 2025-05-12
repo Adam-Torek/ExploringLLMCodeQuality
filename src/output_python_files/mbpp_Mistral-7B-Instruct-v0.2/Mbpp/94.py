@@ -12,4 +12,4 @@ def index_minimum(lst):
 assert index_minimum([('Rash', 143), ('Manjeet', 200), ('Varsha', 100)]) == 'Varsha'
 assert index_minimum([]) is None
 assert index_minimum([('Rash', 143), ('Manjeet', 200)]) is None
-assert index_minimum([('Rash', 143)]) == 'Rash'</s>
+assert index_minimum([('Rash', 143)]) == 'Rash'

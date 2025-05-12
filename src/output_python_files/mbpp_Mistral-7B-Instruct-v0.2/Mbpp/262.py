@@ -13,4 +13,4 @@ def split_two_parts(lst, L):
     if len(lst) < L:
         return ("Error: List is too short", [])
     else:
-        return (lst[:L], lst[L:])</s>
+        return (lst[:L], lst[L:])

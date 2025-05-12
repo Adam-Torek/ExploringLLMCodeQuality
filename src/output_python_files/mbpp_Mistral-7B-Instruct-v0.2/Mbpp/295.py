@@ -12,4 +12,4 @@ def sum_div(n):
     return sum
 
 assert sum_div(8) == 7
-print(sum_div(8))</s>
+print(sum_div(8))

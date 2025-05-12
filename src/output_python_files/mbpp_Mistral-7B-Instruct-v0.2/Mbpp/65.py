@@ -17,4 +17,4 @@ assert recursive_list_sum([1, 2, [3,4],[5,6]]) == 21
 def recursive_list_sum(lst):
     return sum(lst + [i for i in lst if isinstance(i, list)])
 
-assert recursive_list_sum([1, 2, [3,4],[5,6]]) == 21</s>
+assert recursive_list_sum([1, 2, [3,4],[5,6]]) == 21

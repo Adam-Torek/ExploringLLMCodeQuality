@@ -28,4 +28,4 @@ assert is_sublist([2,4,3,5,7],[3,5,7])==True
 assert is_sublist([1,2,3,4,5],[1,2])==True
 assert is_sublist([1,2,3,4,5],[1,3])==False
 assert is_sublist([],[])==True
-assert is_sublist([],[1])==False</s>
+assert is_sublist([],[1])==False

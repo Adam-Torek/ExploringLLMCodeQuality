@@ -12,4 +12,4 @@ def comb_sort(arr):
         gap = int(gap / 1.3)
     return arr
 
-assert comb_sort([5, 15, 37, 25, 79]) == [5, 15, 25, 37, 79]</s>
+assert comb_sort([5, 15, 37, 25, 79]) == [5, 15, 25, 37, 79]

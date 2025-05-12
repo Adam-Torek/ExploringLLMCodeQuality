@@ -15,4 +15,4 @@ def all_unique(lst):
     if len(lst) == len(set(lst)):
         return True
     else:
-        return False</s>
+        return False

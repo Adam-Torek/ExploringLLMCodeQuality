@@ -27,4 +27,4 @@ print(count_up_to(11))
 print(count_up_to(0))
 print(count_up_to(20))
 print(count_up_to(1))
-print(count_up_to(18))</s>
+print(count_up_to(18))

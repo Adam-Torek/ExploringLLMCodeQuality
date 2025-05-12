@@ -12,4 +12,4 @@ def odd_values_string(string):
 assert odd_values_string('abcdef') == 'ace'
 assert odd_values_string('') == ''
 assert odd_values_string('a') == 'a'
-assert odd_values_string('hello') == 'h'</s>
+assert odd_values_string('hello') == 'h'

@@ -20,4 +20,4 @@ print(iscube(2))
 print(iscube(-1))
 print(iscube(64))
 print(iscube(0))
-print(iscube(180))</s>
+print(iscube(180))

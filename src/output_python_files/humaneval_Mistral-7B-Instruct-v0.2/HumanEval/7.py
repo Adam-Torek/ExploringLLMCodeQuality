@@ -13,4 +13,4 @@ def filter_by_substring(strings: List[str], substring: str) -> List[str]:
 
 if __name__ == "__main__":
     import doctest
-    doctest.testmod()</s>
+    doctest.testmod()

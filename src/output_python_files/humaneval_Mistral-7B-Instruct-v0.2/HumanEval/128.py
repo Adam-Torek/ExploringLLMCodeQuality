@@ -24,4 +24,4 @@ def prod_signs(arr):
 # Testing
 if __name__ == '__main__':
     import doctest
-    doctest.testmod()</s>
+    doctest.testmod()

@@ -14,4 +14,4 @@ def rescale_to_unit(numbers: List[float]) -> List[float]:
 
 if __name__ == "__main__":
     import doctest
-    doctest.testmod()</s>
+    doctest.testmod()

@@ -24,4 +24,4 @@ def first_non_repeating_character(string):
             return char
 
     # if no character is found with count 1, return None
-    return None</s>
+    return None

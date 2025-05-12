@@ -17,4 +17,3 @@ def surfacearea_sphere(radius):
 
 if __name__ == '__main__':
     print(surfacearea_sphere(10))
-</s>

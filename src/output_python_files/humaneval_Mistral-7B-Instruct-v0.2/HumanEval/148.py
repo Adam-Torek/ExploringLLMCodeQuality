@@ -27,4 +27,4 @@ def bf(planet1, planet2):
 # Testing
 print(bf("Jupiter", "Neptune"))
 print(bf("Earth", "Mercury"))
-print(bf("Mercury", "Uranus"))</s>
+print(bf("Mercury", "Uranus"))

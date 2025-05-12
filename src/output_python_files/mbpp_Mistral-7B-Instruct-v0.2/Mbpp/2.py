@@ -17,4 +17,4 @@ if __name__ == "__main__":
     assert set(similar_elements((1, 2, 3, 4),(3, 4, 5, 6))) == set()
     assert set(similar_elements((1, 2, 3, 4),(3, 4, 3, 4))) == set((3, 4))
     assert set(similar_elements((1, 2, 3, 4),(3, 4, 3, 4, 1))) == set((3, 4))
-    assert set(similar_elements((1, 2, 3, 4),(3, 4, 3, 4, 1, 2))) == set((3, 4))</s>
+    assert set(similar_elements((1, 2, 3, 4),(3, 4, 3, 4, 1, 2))) == set((3, 4))

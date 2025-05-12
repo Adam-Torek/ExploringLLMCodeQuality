@@ -24,4 +24,4 @@ def find_Odd_Pair(arr, n):
 
 arr = [5,4,7,2,1]
 n = len(arr)
-print(find_Odd_Pair(arr, n))</s>
+print(find_Odd_Pair(arr, n))

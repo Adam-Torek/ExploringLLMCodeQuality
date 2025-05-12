@@ -15,4 +15,4 @@ if __name__ == "__main__":
     arr = [12,3,5,7,19]
     k = 2
     assert kth_element(arr, k) == 3
-    print("Test passed!")</s>
+    print("Test passed!")

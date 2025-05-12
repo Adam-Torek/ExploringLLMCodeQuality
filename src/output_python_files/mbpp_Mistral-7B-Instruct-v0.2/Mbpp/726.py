@@ -8,4 +8,4 @@ def multiply_elements(tuple_input):
         result.append(tuple_input[i] * tuple_input[i+1])
     return tuple(result)
 
-assert multiply_elements((1, 5, 7, 8, 10)) == (5, 35, 56, 80)</s>
+assert multiply_elements((1, 5, 7, 8, 10)) == (5, 35, 56, 80)

@@ -30,4 +30,4 @@ if __name__ == '__main__':
     print(make_a_pile(7))
     print(make_a_pile(8))
     print(make_a_pile(9))
-    print(make_a_pile(10))</s>
+    print(make_a_pile(10))

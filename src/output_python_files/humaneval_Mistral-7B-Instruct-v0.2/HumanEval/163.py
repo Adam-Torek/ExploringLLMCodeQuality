@@ -19,4 +19,4 @@ def generate_integers(a, b):
 # Test cases
 print(generate_integers(2, 8))
 print(generate_integers(8, 2))
-print(generate_integers(10, 14))</s>
+print(generate_integers(10, 14))

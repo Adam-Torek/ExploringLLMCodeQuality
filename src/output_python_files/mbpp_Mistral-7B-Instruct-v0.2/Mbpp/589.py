@@ -16,4 +16,4 @@ def perfect_squares(start, end):
 
 if __name__ == "__main__":
     assert perfect_squares(1,30)==[1, 4, 9, 16, 25]
-    print(perfect_squares(1,30))</s>
+    print(perfect_squares(1,30))

@@ -6,4 +6,4 @@ def find_parity(num):
     """
     This function takes an integer as an argument and returns a boolean value indicating whether the parity of the number is odd.
     """
-    return num % 2 != 0</s>
+    return num % 2 != 0

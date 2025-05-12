@@ -27,4 +27,4 @@ assert capital_words_spaces("hello world") == "hello world"
 assert capital_words_spaces("12345") == "12345"
 assert capital_words_spaces("12345 Hello World") == "12345 Hello World"
 assert capital_words_spaces("12345 Hello World 12345") == "12345 Hello World 12345"
-assert capital_words_spaces("12345 Hello World 12345 Hello World") == "12345 Hello World 12345 Hello World"</s>
+assert capital_words_spaces("12345 Hello World 12345 Hello World") == "12345 Hello World 12345 Hello World"

@@ -21,4 +21,4 @@ def reverse_vowels(string):
 assert reverse_vowels("Python") == "Python"
 assert reverse_vowels("racecar") == "racecar"
 assert reverse_vowels("hello") == "holleh"
-assert reverse_vowels("aeiou") == "euioa"</s>
+assert reverse_vowels("aeiou") == "euioa"

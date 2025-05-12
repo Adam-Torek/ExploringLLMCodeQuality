@@ -10,4 +10,4 @@ def add_string(lst, format_string):
     """
     return [format_string.format(i) for i in lst]
 
-assert add_string([1,2,3,4],'temp{0}')==['temp1', 'temp2', 'temp3', 'temp4']</s>
+assert add_string([1,2,3,4],'temp{0}')==['temp1', 'temp2', 'temp3', 'temp4']

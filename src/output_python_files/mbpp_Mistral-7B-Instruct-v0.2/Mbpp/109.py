@@ -17,4 +17,4 @@ def odd_Equivalent(binary_string:str, rotation:int)->int:
             odd_count += 1 # Increment odd count
     return odd_count # Return the odd count
 
-assert odd_Equivalent("011001",6) == 3 # Test case passes</s>
+assert odd_Equivalent("011001",6) == 3 # Test case passes

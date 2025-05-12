@@ -12,4 +12,4 @@ def volume_cube(side_length):
     return volume
 
 # Test the function
-assert volume_cube(3) == 27</s>
+assert volume_cube(3) == 27

@@ -13,4 +13,4 @@ def radian_degree(degrees: float) -> float:
 
 import math
 
-assert radian_degree(90) == 1.5707963267948966</s>
+assert radian_degree(90) == 1.5707963267948966

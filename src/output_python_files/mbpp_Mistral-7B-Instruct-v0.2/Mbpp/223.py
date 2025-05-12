@@ -18,4 +18,4 @@ assert is_majority([1, 2, 3, 3, 3, 3, 10], 7, 6) == False
 assert is_majority([1, 2, 3, 3, 3, 3, 10], 7, 7) == True
 assert is_majority([1, 2, 3, 3, 3, 3, 10], 7, 8) == False
 assert is_majority([1, 2, 3, 3, 3, 3, 10], 7, 9) == False
-assert is_majority([1, 2, 3, 3, 3, 3, 10], 7, 11) == False</s>
+assert is_majority([1, 2, 3, 3, 3, 3, 10], 7, 11) == False

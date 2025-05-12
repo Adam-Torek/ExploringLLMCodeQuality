@@ -30,4 +30,4 @@ def words_in_sentence(sentence):
 print(words_in_sentence("This is a test"))
 print(words_in_sentence("lets go for swimming"))
 print(words_in_sentence("hello world"))
-print(words_in_sentence("the quick brown fox jumps over the lazy dog"))</s>
+print(words_in_sentence("the quick brown fox jumps over the lazy dog"))

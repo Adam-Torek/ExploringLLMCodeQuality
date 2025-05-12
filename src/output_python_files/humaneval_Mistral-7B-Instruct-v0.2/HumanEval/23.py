@@ -41,4 +41,4 @@ def main():
         print(f"'{string}' is not a palindrome")
 
 if __name__ == "__main__":
-    main()</s>
+    main()

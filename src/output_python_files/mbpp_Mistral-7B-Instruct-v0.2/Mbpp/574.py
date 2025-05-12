@@ -14,4 +14,4 @@ def surfacearea_cylinder(radius, height):
     surface_area = 2 * math.pi * radius ** 2 + 2 * math.pi * radius * height
     return surface_area
 
-assert surfacearea_cylinder(10,5) == 942.45</s>
+assert surfacearea_cylinder(10,5) == 942.45

@@ -24,4 +24,4 @@ assert max_val(['Python', 'three', 2, 4, 5, 'five']) != 3
 assert max_val(['Python', 'three', 2, 4, 5, 'five']) != 2
 assert max_val(['Python', 'three', 2, 4, 5, 'five']) != 4
 assert max_val(['Python', 'three', 2, 4, 5, 'five']) != 'three'
-assert max_val(['Python', 'three', 2, 4, 5, 'five']) != 'Python'</s>
+assert max_val(['Python', 'three', 2, 4, 5, 'five']) != 'Python'

@@ -10,4 +10,4 @@ def replace_list(lst1, lst2):
     :return: list
     """
     lst1[-1] = lst2
-    return lst1</s>
+    return lst1

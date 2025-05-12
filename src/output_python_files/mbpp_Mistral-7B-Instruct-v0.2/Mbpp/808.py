@@ -10,4 +10,4 @@ def check_K(tuple_list, k):
 
 # Test case
 assert check_K((10, 4, 5, 6, 8), 6) == True
-assert check_K((1, 2, 3, 4, 5), 6) == False</s>
+assert check_K((1, 2, 3, 4, 5), 6) == False

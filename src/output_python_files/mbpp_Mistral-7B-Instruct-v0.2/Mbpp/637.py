@@ -22,4 +22,4 @@ def noprofit_noloss(price,cost):
 assert noprofit_noloss(1500,1200)==False
 assert noprofit_noloss(100,100)==True
 assert noprofit_noloss(100,99)==False
-assert noprofit_noloss(100,101)==False</s>
+assert noprofit_noloss(100,101)==False

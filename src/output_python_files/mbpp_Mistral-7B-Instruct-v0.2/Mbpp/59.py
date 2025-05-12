@@ -25,4 +25,4 @@ if __name__ == "__main__":
     n = 5
     print(nth_octagonal_number(n))
     assert is_octagonal(n)
-    assert nth_octagonal_number(n) == 65</s>
+    assert nth_octagonal_number(n) == 65

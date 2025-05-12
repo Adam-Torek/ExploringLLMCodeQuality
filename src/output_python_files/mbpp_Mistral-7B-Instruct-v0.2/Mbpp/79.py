@@ -6,4 +6,4 @@ def word_len(word):
     """
     This function takes a single argument, a string, and returns a boolean value indicating whether the length of the string is odd or not.
     """
-    return len(word) % 2 != 0</s>
+    return len(word) % 2 != 0

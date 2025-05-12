@@ -18,4 +18,4 @@ if __name__ == "__main__":
     arr1 = [1, 2, 3, 5, 7, 8, 9, 10]
     arr2 = [1, 2, 4, 8, 9]
     assert intersection_array(arr1, arr2) == [1, 2, 8, 9]
-    print("Test passed")</s>
+    print("Test passed")

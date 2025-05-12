@@ -24,4 +24,4 @@ if __name__ == "__main__":
     lst = []
     print(sum_squares(lst))
     lst = [-1, -5, 2, -1, -5]
-    print(sum_squares(lst))</s>
+    print(sum_squares(lst))

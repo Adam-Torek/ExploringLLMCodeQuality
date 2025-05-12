@@ -30,4 +30,4 @@ print(smallest_change([1, 2, 3, 5, 4, 7, 9, 6, 6])) # 3
 print(smallest_change([1, 2, 3, 5, 5, 4, 7, 9, 6, 6])) # 2
 print(smallest_change([1, 2, 3, 5, 5, 5, 4, 7, 9, 6, 6])) # 1
 print(smallest_change([1, 2, 3, 5, 5, 5, 5, 4, 7, 9, 6, 6])) # 0
-print(smallest_change([1, 2, 3, 5, 5, 5, 5, 5, 4, 7, 9, 6, 6])) # -1</s>
+print(smallest_change([1, 2, 3, 5, 5, 5, 5, 5, 4, 7, 9, 6, 6])) # -1

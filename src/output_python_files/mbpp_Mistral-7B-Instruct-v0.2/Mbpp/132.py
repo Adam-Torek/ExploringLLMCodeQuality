@@ -10,4 +10,4 @@ def tup_string(tuple):
     """
     return ''.join(tuple)
 
-assert tup_string(('e', 'x', 'e', 'r', 'c', 'i', 's', 'e', 's')) == "exercises"</s>
+assert tup_string(('e', 'x', 'e', 'r', 'c', 'i', 's', 'e', 's')) == "exercises"

@@ -38,4 +38,4 @@ def pairs_sum_to_zero(l):
 # Test cases
 if __name__ == '__main__':
     import doctest
-    doctest.testmod()</s>
+    doctest.testmod()

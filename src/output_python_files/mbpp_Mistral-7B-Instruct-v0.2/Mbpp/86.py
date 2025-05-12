@@ -16,4 +16,4 @@ def centered_hexagonal_number(n):
 
 if __name__ == "__main__":
     assert centered_hexagonal_number(10) == 271
-    print("Test passed")</s>
+    print("Test passed")

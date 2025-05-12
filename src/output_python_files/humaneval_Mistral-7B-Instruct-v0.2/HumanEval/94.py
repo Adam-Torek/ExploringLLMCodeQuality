@@ -43,4 +43,4 @@ if __name__ == "__main__":
     print(skjkasdkd(lst))
 
     lst = [1, 8, 1, 2, 1, 7]
-    print(skjkasdkd(lst))</s>
+    print(skjkasdkd(lst))

@@ -15,4 +15,4 @@ if __name__ == "__main__":
     assert max_difference([(1, 2), (3, 4), (5, 6), (7, 8)]) == 7
     assert max_difference([(1, 1), (1, 1), (1, 1), (1, 1)]) == 0
     assert max_difference([]) == 0
-    assert max_difference([(1, 1)]) == 0</s>
+    assert max_difference([(1, 1)]) == 0

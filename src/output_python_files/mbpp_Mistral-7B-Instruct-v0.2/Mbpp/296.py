@@ -16,4 +16,4 @@ def get_Inv_Count(arr):
 
 # Test case
 assert get_Inv_Count([1,20,6,4,5]) == 5
-print("Test passed")</s>
+print("Test passed")

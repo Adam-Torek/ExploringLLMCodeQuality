@@ -18,4 +18,4 @@ def len_log(str_list):
             longest_word = word
     return len(longest_word)
 
-assert len_log(["python","PHP","bigdata"]) == 7</s>
+assert len_log(["python","PHP","bigdata"]) == 7

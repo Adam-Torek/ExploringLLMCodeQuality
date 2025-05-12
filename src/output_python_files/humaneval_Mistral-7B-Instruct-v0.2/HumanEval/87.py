@@ -33,4 +33,4 @@ print(get_row([
   [1,2,3,4,5,1]
 ], 1))
 print(get_row([], 1))
-print(get_row([[], [1], [1, 2, 3]], 3))</s>
+print(get_row([[], [1], [1, 2, 3]], 3))

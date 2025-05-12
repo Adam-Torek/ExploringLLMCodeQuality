@@ -9,4 +9,4 @@ def power_base_sum(base, power):
         base = int(str(base)[1:])
     return sum
 
-assert power_base_sum(2,100)==115</s>
+assert power_base_sum(2,100)==115

@@ -19,4 +19,4 @@ def is_samepatterns(patterns, given):
             if patterns[i][j] != given[i][j]:
                 return False
 
-    return True</s>
+    return True

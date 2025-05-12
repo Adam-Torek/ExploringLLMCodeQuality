@@ -17,4 +17,4 @@ def eulerian_num(n, m):
 if __name__ == "__main__":
     n, m = 3, 1
     assert eulerian_num(n, m) == 4
-    print(eulerian_num(n, m))</s>
+    print(eulerian_num(n, m))

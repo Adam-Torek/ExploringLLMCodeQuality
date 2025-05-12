@@ -13,4 +13,4 @@ def toggle_string(string):
 assert toggle_string("Python") == "pYTHON"
 assert toggle_string("python") == "Python"
 assert toggle_string("") == ""
-assert toggle_string("Hello World") == "hELLO wORLD"</s>
+assert toggle_string("Hello World") == "hELLO wORLD"

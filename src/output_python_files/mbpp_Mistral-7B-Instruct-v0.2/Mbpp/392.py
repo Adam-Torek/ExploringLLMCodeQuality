@@ -15,4 +15,4 @@ def get_max_sum(n):
         return memo[n]
     return f(n)
 
-assert get_max_sum(60) == 106</s>
+assert get_max_sum(60) == 106

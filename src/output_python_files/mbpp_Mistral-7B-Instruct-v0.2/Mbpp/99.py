@@ -13,4 +13,4 @@ assert decimal_to_binary(8) == '1000'
 assert decimal_to_binary(15) == '1111'
 assert decimal_to_binary(0) == ''
 assert decimal_to_binary(1) == '1'
-assert decimal_to_binary(10) == '1010'</s>
+assert decimal_to_binary(10) == '1010'

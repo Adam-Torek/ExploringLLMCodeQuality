@@ -17,4 +17,4 @@ assert upper_ctr('PYthon') == 1
 assert upper_ctr('The Quick Brown Fox') == 3
 assert upper_ctr('') == 0
 assert upper_ctr('AaBbCc') == 3
-assert upper_ctr('12345') == 0</s>
+assert upper_ctr('12345') == 0

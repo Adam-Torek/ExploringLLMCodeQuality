@@ -7,4 +7,4 @@ def is_even(num):
     :param num: an integer
     :return: True if the number is even, False otherwise
     """
-    return num % 2 == 0</s>
+    return num % 2 == 0

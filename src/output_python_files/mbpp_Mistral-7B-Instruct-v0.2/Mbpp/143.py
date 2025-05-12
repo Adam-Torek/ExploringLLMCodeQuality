@@ -10,4 +10,4 @@ def find_lists(tuple_input):
     return count
 
 # Test case
-assert find_lists(([1, 2, 3, 4], [5, 6, 7, 8])) == 2</s>
+assert find_lists(([1, 2, 3, 4], [5, 6, 7, 8])) == 2

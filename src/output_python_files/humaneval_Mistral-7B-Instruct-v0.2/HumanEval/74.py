@@ -26,4 +26,4 @@ print(total_match([], []))
 print(total_match(['hi', 'admin'], ['hI', 'Hi']))
 print(total_match(['hi', 'admin'], ['hi', 'hi', 'admin', 'project']))
 print(total_match(['hi', 'admin'], ['hI', 'hi', 'hi']))
-print(total_match(['4'], ['1', '2', '3', '4', '5']))</s>
+print(total_match(['4'], ['1', '2', '3', '4', '5']))

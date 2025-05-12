@@ -14,4 +14,3 @@ def centered_hexagonal_number(n):
 
 if __name__ == "__main__":
     print(centered_hexagonal_number(10))
-</s>

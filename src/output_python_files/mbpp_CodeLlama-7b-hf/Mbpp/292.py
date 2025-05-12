@@ -9,4 +9,3 @@ def find(a, b):
 
 
 print(find(10, 3))
-</s>

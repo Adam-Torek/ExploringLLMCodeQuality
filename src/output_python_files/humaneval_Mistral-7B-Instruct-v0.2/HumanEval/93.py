@@ -60,4 +60,4 @@ if __name__ == "__main__":
     encoded_message = encode(message)
     print(encoded_message)
     decoded_message = decode(encoded_message)
-    print(decoded_message)</s>
+    print(decoded_message)

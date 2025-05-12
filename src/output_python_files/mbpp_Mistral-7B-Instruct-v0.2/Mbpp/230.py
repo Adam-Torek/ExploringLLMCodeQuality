@@ -15,4 +15,4 @@ def replace_blank(string, character):
 assert replace_blank("hello people", '@') == "hello@people"
 assert replace_blank("hello world", '#') == "hello#world"
 assert replace_blank("", '!') == ""
-assert replace_blank("hello", '&') == "hello"</s>
+assert replace_blank("hello", '&') == "hello"

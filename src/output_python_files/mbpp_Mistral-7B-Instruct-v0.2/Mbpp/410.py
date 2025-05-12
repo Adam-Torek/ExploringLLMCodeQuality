@@ -21,4 +21,4 @@ assert min_val(['Python', 'three', 2, 4, 5, 'version']) == 'th'
 assert min_val([]) is None
 assert min_val(['Python', 3, 2, 4, 5, 'version', 0]) == 0
 assert min_val(['Python', 3, 2, 4, 5, 'version', 0, '']) == ''
-assert min_val(['Python', 3, 2, 4, 5, 'version', 0, 'a', 'z']) == 'a'</s>
+assert min_val(['Python', 3, 2, 4, 5, 'version', 0, 'a', 'z']) == 'a'

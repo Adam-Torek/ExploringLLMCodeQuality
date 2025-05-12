@@ -22,4 +22,4 @@ print(double_the_difference([1, 3, 2, 0]))
 print(double_the_difference([-1, -2, 0]))
 print(double_the_difference([9, -2]))
 print(double_the_difference([0]))
-print(double_the_difference([]))</s>
+print(double_the_difference([]))

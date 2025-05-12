@@ -11,4 +11,4 @@ def square_sum(n):
         i += 1
     return sum
 
-assert square_sum(2) == 10</s>
+assert square_sum(2) == 10

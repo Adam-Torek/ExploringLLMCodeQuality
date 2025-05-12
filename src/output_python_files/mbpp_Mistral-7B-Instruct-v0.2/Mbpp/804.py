@@ -16,4 +16,4 @@ assert is_product_even([1,2,3]) == False
 assert is_product_even([2,2,2]) == True
 assert is_product_even([-2,-2,-2]) == True
 assert is_product_even([1,2,4]) == True
-assert is_product_even([1,2,4,4]) == True</s>
+assert is_product_even([1,2,4,4]) == True

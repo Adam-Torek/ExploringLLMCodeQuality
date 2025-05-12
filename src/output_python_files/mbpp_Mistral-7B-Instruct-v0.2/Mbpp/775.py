@@ -15,4 +15,4 @@ assert odd_position([2,1,4,3,6,7,6,3]) == True
 assert odd_position([1,2,3,4,5,6,7,8]) == True
 assert odd_position([1,2,3,4,5,6,7,9]) == True
 assert odd_position([1,2,3,4,5,6,6,3]) == False
-assert odd_position([1,2,3,4,5,6,7,0]) == False</s>
+assert odd_position([1,2,3,4,5,6,7,0]) == False

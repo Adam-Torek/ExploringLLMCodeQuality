@@ -35,4 +35,4 @@ if __name__ == '__main__':
     print(make_palindrome('racecar'))
     print(make_palindrome('hello'))
     print(make_palindrome('abba'))
-    print(make_palindrome('A man a plan a canal Panama'))</s>
+    print(make_palindrome('A man a plan a canal Panama'))

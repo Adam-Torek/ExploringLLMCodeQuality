@@ -82,4 +82,4 @@ if __name__ == "__main__":
     operator = ['+', '*', '-']
     operand = [2, 3, 4, 5]
     result = do_algebra(operator, operand)
-    print(result)</s>
+    print(result)

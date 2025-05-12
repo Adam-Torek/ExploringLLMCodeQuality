@@ -28,4 +28,4 @@ def main():
     print(triangle_is_valid(3, 3, 4))
 
 if __name__ == '__main__':
-    main()</s>
+    main()

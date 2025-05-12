@@ -7,4 +7,4 @@ def merge(lst):
     Takes a list of lists, where each sublist has two elements, and returns a list of two lists.
     The first list has the first element of each sublist, and the second list has the second.
     """
-    return [list(i)[0] for i in lst], [list(i)[1] for i in lst]</s>
+    return [list(i)[0] for i in lst], [list(i)[1] for i in lst]

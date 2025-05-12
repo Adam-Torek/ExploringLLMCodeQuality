@@ -9,4 +9,4 @@ def Extract(lst):
     return [sublist[0] for sublist in lst]
 
 # Test the function
-assert Extract([[1, 2], [3, 4, 5], [6, 7, 8, 9]]) == [1, 3, 6]</s>
+assert Extract([[1, 2], [3, 4, 5], [6, 7, 8, 9]]) == [1, 3, 6]

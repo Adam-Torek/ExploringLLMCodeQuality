@@ -17,4 +17,3 @@ def sort_sublists(list_of_lists):
 
 if __name__ == '__main__':
     print(sort_sublists([['green', 'orange'], ['black', 'white'], ['white', 'black', 'orange']]))
-</s>

@@ -44,4 +44,4 @@ assert filter_data(students_data, min_height, min_weight) == {}
 students_data = {'Cierra Vega': (6.2, 70), 'Alden Cantrell': (5.9, 65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)}
 min_height = 6.0
 min_weight = 55
-assert filter_data(students_data, min_height, min_weight) == {}</s>
+assert filter_data(students_data, min_height, min_weight) == {}

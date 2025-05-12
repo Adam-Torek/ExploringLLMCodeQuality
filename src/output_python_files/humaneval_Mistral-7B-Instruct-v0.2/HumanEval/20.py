@@ -23,4 +23,4 @@ def find_closest_elements(numbers: List[float]) -> Tuple[float, float]:
 
 if __name__ == '__main__':
     import doctest
-    doctest.testmod()</s>
+    doctest.testmod()

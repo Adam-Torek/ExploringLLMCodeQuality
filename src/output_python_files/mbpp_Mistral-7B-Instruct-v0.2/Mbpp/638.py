@@ -12,4 +12,4 @@ def wind_chill(wind_velocity: int, temperature: int) -> int:
     wind_chill_index = int(35.74 + 0.6215 * temperature - 35.75 * (wind_velocity ** 0.16) + 0.4275 * temperature * (wind_velocity ** 0.16))
     return wind_chill_index
 
-assert wind_chill(120,35)==40</s>
+assert wind_chill(120,35)==40

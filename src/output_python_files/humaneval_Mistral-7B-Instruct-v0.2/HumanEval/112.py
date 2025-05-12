@@ -21,4 +21,4 @@ def is_palindrome(s):
 # Test
 print(reverse_delete("abcde", "ae"))
 print(reverse_delete("abcdef", "b"))
-print(reverse_delete("abcdedcba", "ab"))</s>
+print(reverse_delete("abcdedcba", "ab"))

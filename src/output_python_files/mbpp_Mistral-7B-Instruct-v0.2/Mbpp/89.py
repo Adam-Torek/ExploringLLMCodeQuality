@@ -25,4 +25,4 @@ if __name__ == '__main__':
     assert closest_num(-10) == -11
     assert closest_num(-100) == -101
     assert closest_num(-1000) == -1001
-    assert closest_num(-float('inf')) == -float('inf')</s>
+    assert closest_num(-float('inf')) == -float('inf')

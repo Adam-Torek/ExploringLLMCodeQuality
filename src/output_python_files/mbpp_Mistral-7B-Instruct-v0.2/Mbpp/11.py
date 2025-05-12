@@ -15,4 +15,4 @@ assert remove_Occ("hello","l") == "heo"
 assert remove_Occ("python","p") == "ython"
 assert remove_Occ("python","y") == "python"
 assert remove_Occ("python","t") == "pyhon"
-assert remove_Occ("python","h") == "pyon"</s>
+assert remove_Occ("python","h") == "pyon"

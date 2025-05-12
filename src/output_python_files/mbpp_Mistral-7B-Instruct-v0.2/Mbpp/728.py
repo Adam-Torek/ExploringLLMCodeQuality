@@ -12,4 +12,4 @@ def sum_list(a,b):
     return result
 
 # Test the function
-assert sum_list([10,20,30],[15,25,35])==[25,45,65]</s>
+assert sum_list([10,20,30],[15,25,35])==[25,45,65]

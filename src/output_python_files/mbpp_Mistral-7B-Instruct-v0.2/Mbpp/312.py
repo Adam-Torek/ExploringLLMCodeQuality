@@ -12,4 +12,4 @@ def volume_cone(radius, height):
     :return: float, the volume of the cone
     """
     volume = (1.0/3.0) * math.pi * (radius ** 2) * height
-    return volume</s>
+    return volume

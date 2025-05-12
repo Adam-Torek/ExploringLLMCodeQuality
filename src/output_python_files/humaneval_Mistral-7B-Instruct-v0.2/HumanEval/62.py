@@ -35,4 +35,4 @@ if __name__ == '__main__':
     doctest.testmod()
     print(integrate([3, 1, 2, 4, 5]))
     print(integrate([1, 2, 3]))
-    print(integrate([1, 2, 3], 1))</s>
+    print(integrate([1, 2, 3], 1))

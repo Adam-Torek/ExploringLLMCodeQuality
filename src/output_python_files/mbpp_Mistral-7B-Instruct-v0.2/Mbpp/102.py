@@ -12,4 +12,4 @@ def snake_to_camel(snake_string):
 assert snake_to_camel('python_program') == 'PythonProgram'
 assert snake_to_camel('snake_case') == 'SnakeCase'
 assert snake_to_camel('') == ''
-assert snake_to_camel('single_word') == 'SingleWord'</s>
+assert snake_to_camel('single_word') == 'SingleWord'

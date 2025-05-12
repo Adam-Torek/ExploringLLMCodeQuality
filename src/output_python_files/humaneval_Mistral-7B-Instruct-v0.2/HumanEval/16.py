@@ -9,4 +9,4 @@ def count_distinct_characters(string: str) -> int:
 
 if __name__ == '__main__':
     import doctest
-    doctest.testmod()</s>
+    doctest.testmod()

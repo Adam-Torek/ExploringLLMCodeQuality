@@ -12,4 +12,4 @@ def sum_series(n):
     return sum
 
 assert sum_series(6) == 12
-print(sum_series(10))</s>
+print(sum_series(10))

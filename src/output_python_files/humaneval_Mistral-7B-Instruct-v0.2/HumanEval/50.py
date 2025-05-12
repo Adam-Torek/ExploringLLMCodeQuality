@@ -15,4 +15,4 @@ def decode_shift(s: str):
 if __name__ == "__main__":
     s = "Python"
     print(encode_shift(s))
-    print(decode_shift(encode_shift(s)))</s>
+    print(decode_shift(encode_shift(s)))

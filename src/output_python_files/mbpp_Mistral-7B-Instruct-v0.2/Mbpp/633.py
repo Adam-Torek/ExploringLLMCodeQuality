@@ -19,4 +19,4 @@ def pair_xor_sum(numbers, expected_sum):
     else:
         raise AssertionError("The sum of xor of all pairs of numbers in the list is not equal to the expected sum: ", expected_sum)
 
-pair_xor_sum([5,9,7,6], 47)</s>
+pair_xor_sum([5,9,7,6], 47)

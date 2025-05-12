@@ -13,4 +13,4 @@ def empty_dict(dict_list):
     return True
 
 assert empty_dict([{},{},{}]) == True
-assert empty_dict([{'a': 1}, {'b': 2}, {'c': 3}]) == False</s>
+assert empty_dict([{'a': 1}, {'b': 2}, {'c': 3}]) == False

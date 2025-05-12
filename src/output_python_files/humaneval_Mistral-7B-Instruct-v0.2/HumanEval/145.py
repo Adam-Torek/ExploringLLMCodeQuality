@@ -19,4 +19,4 @@ def order_by_points(nums):
 print(order_by_points([1, 11, -1, -11, -12]))
 print(order_by_points([]))
 print(order_by_points([1, 2, 3, 4, 5]))
-print(order_by_points([-1, -11, 1, -12, 11]))</s>
+print(order_by_points([-1, -11, 1, -12, 11]))

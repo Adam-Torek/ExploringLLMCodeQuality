@@ -22,4 +22,4 @@ def sum_product(numbers: List[int]) -> Tuple[int, int]:
 
 if __name__ == "__main__":
     import doctest
-    doctest.testmod()</s>
+    doctest.testmod()

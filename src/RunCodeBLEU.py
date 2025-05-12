@@ -38,7 +38,12 @@ def main():
         print(f"{res_i}: Average CodeBLEU score for model {model_name} on quantization {quant} for benchmark {benchmark} is {round(avg_codebleu_scores, 5)}")
         res_i += 1
 
-        bleu_scores_output = put_score_into_dict(bleu_scores_output, model_name, benchmark, quant, avg_codebleu_scores)
+        if benchmark == "humaneval":
+            benchmark = "HumanEval"
+        elif benchmark == "mbpp":
+            benchmark = "MBPP"
+
+        bleu_scores_output = put_score_into_dict(bleu_scores_output, model_name, benchmark, quant, avg_codebleu_scores, use_plus=True)
 
     with open("codebleu_results.json","w") as outfile:
         json.dump(bleu_scores_output, outfile)

@@ -24,4 +24,4 @@ assert check_Consecutive([1,2,3,5,7]) == False
 assert check_Consecutive([1,2,3,4,5,6,7]) == True
 assert check_Consecutive([1,2,3,4,5,6,7,8]) == True
 assert check_Consecutive([1,2,3,4,5,6,7,9,10]) == True
-assert check_Consecutive([1,2,3,4,5,6,7,9,11]) == False</s>
+assert check_Consecutive([1,2,3,4,5,6,7,9,11]) == False

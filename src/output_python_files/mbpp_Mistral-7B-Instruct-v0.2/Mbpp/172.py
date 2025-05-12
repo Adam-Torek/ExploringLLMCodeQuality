@@ -7,4 +7,4 @@ def count_occurance(string):
     :param string: string to search for the occurence of 'std'
     :return: int, number of occurence of 'std' in the given string
     """
-    return string.count('std')</s>
+    return string.count('std')

@@ -16,4 +16,4 @@ def add_pairwise(numbers):
 
 if __name__ == "__main__":
     assert add_pairwise((1, 5, 7, 8, 10)) == (6, 12, 15, 18)
-    print("Test passed")</s>
+    print("Test passed")

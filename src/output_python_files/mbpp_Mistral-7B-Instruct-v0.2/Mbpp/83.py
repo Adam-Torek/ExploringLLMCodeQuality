@@ -15,4 +15,4 @@ assert get_char("pqr") == "u"
 assert get_char("") == ""
 assert get_char("z") == "z"
 assert get_char("aaa") == "c"
-assert get_char("zzz") == "z"</s>
+assert get_char("zzz") == "z"

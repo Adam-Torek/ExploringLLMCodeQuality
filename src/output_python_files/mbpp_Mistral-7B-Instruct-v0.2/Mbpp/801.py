@@ -16,4 +16,4 @@ assert test_three_equal(1,1,2) == 2
 assert test_three_equal(1,2,1) == 2
 assert test_three_equal(1,2,2) == 1
 assert test_three_equal(2,2,2) == 3
-assert test_three_equal(3,3,3) == 3</s>
+assert test_three_equal(3,3,3) == 3

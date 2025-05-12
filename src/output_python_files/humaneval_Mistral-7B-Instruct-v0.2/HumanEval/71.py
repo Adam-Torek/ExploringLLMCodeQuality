@@ -24,4 +24,4 @@ print(triangle_area(3, 4, 5))
 print(triangle_area(1, 2, 10))
 print(triangle_area(5, 12, 13))
 print(triangle_area(3, 3, 3))
-print(triangle_area(3, 3, 6))</s>
+print(triangle_area(3, 3, 6))

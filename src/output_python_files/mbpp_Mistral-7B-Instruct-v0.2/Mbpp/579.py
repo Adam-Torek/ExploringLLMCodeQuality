@@ -20,4 +20,4 @@ def find_dissimilar(tuple1, tuple2):
 assert find_dissimilar((3, 4, 5, 6), (5, 7, 4, 10)) == (3, 6, 7, 10)
 assert find_dissimilar((1, 2, 3), (1, 2, 3)) == ()
 assert find_dissimilar((1, 2, 3), (3, 2, 1)) == (1, 3)
-assert find_dissimilar((1, 2, 3), (3, 2, 1, 1)) == (1, 3)</s>
+assert find_dissimilar((1, 2, 3), (3, 2, 1, 1)) == (1, 3)

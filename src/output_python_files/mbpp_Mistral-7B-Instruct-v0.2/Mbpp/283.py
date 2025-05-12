@@ -19,4 +19,4 @@ assert validate(1234) == True
 assert validate(11122) == True
 assert validate(33221) == True
 assert validate(12303) == False
-assert validate(12300) == False</s>
+assert validate(12300) == False

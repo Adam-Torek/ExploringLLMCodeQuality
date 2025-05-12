@@ -17,4 +17,4 @@ def fizz_buzz(n: int):
 # Test cases
 print(fizz_buzz(50))
 print(fizz_buzz(78))
-print(fizz_buzz(79))</s>
+print(fizz_buzz(79))

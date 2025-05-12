@@ -13,4 +13,4 @@ assert tuple_size(("A", 1, "B", 2, "C", 3)) == getsizeof(("A", 1, "B", 2, "C", 3
 def tuple_size(t):
     return sum(map(lambda x: getsizeof(x), t))
 
-assert tuple_size(("A", 1, "B", 2, "C", 3)) == getsizeof(("A", 1, "B", 2, "C", 3))</s>
+assert tuple_size(("A", 1, "B", 2, "C", 3)) == getsizeof(("A", 1, "B", 2, "C", 3))

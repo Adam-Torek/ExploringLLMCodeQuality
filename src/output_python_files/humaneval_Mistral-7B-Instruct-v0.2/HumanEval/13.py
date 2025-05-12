@@ -13,4 +13,4 @@ def greatest_common_divisor(a: int, b: int) -> int:
 
 if __name__ == "__main__":
     import doctest
-    doctest.testmod()</s>
+    doctest.testmod()

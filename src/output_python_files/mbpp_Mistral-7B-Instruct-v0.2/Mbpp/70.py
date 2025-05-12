@@ -14,4 +14,4 @@ def get_equal(tuples):
 assert get_equal([(11, 22, 33), (44, 55, 66)]) == True
 assert get_equal([(11, 22), (44, 55)]) == True
 assert get_equal([(11, 22), (44)]) == False
-assert get_equal([]) == True</s>
+assert get_equal([]) == True

@@ -10,4 +10,4 @@ def drop_empty(dictionary):
     return {key: value for key, value in dictionary.items() if value is not None}
 
 # Test
-assert drop_empty({'c1': 'Red', 'c2': 'Green', 'c3':None}) == {'c1': 'Red', 'c2': 'Green'}</s>
+assert drop_empty({'c1': 'Red', 'c2': 'Green', 'c3':None}) == {'c1': 'Red', 'c2': 'Green'}

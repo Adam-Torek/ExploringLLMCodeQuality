@@ -37,4 +37,4 @@ assert re_arrange_array([-1], 1) == [-1]
 assert re_arrange_array([-1, 1], 2) == [-1, 1]
 assert re_arrange_array([1, -1], 2) == [1, -1]
 assert re_arrange_array([-1, 1, 1], 3) == [-1, 1, 1]
-assert re_arrange_array([1, -1, 1], 3) == [1, 1, -1]</s>
+assert re_arrange_array([1, -1, 1], 3) == [1, 1, -1]

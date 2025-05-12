@@ -10,4 +10,4 @@ def find(num1, num2):
     :param num2: The second number
     :return: The quotient of num1 and num2 rounded down to the nearest integer
     """
-    return int(num1 / num2)</s>
+    return int(num1 / num2)

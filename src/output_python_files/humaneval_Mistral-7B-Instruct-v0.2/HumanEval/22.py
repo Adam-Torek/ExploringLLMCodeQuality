@@ -14,4 +14,4 @@ def filter_integers(values: List[Any]) -> List[int]:
 if __name__ == "__main__":
     import doctest
 
-    doctest.testmod()</s>
+    doctest.testmod()

@@ -13,4 +13,4 @@ def first_digit(number):
 assert first_digit(123) == 1
 assert first_digit(-123) == 1
 assert first_digit(0) == 0
-assert first_digit(100) == 1</s>
+assert first_digit(100) == 1

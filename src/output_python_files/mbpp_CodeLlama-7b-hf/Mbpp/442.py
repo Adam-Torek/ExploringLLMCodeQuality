@@ -17,4 +17,3 @@ def positive_count(arr):
 
 
 print(positive_count([0, 1, 2, -1, -5, 6, 0, -3, -2, 3, 4, 6, 8]))
-</s>

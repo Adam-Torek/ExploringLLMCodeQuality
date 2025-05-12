@@ -45,4 +45,4 @@ if __name__ == "__main__":
     arr = [1, 101, 2, 3, 100, 4, 5]
     k = 4
     i = 6
-    print(max_sum_increasing_subseq_prefix(arr, k))</s>
+    print(max_sum_increasing_subseq_prefix(arr, k))

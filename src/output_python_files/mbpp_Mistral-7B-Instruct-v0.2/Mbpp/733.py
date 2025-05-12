@@ -26,4 +26,4 @@ if __name__ == "__main__":
     arr = [2, 5, 5, 5, 6, 6, 8, 9, 9, 9]
     num = 5
     assert find_first_occurrence(arr, num) == 1
-    print("Test passed!")</s>
+    print("Test passed!")

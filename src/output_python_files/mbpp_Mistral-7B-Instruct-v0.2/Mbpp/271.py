@@ -11,4 +11,4 @@ def even_Power_Sum(n):
         n -= 1 if i % 2 != 0 else 0
     return sum
 
-assert even_Power_Sum(2) == 1056</s>
+assert even_Power_Sum(2) == 1056

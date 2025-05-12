@@ -20,4 +20,4 @@ if __name__ == "__main__":
     print(digitSum("abcCd"))
     print(digitSum("helloE"))
     print(digitSum("woArBld"))
-    print(digitSum("aAaaaXa"))</s>
+    print(digitSum("aAaaaXa"))

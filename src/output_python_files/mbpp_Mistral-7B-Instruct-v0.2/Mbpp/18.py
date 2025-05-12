@@ -14,4 +14,4 @@ assert remove_dirty_chars("probasscurve", "pros") == 'bacuve'
 assert remove_dirty_chars("python", "py") == "thn"
 assert remove_dirty_chars("", "abc") == ""
 assert remove_dirty_chars("abc", "abc") == ""
-assert remove_dirty_chars("abc", "xyz") == "abc"</s>
+assert remove_dirty_chars("abc", "xyz") == "abc"

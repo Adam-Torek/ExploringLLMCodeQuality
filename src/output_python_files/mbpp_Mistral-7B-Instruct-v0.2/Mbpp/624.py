@@ -14,4 +14,4 @@ def is_upper(string):
 # Test the function
 assert is_upper("person") == "PERSON"
 assert is_upper("Python") == "PYTHON"
-assert is_upper("hello") == "HELLO"</s>
+assert is_upper("hello") == "HELLO"

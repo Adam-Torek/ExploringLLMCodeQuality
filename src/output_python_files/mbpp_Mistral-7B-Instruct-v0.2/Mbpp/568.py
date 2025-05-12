@@ -9,4 +9,4 @@ def empty_list(n):
 assert empty_list(5) == [{}, {}, {}, {}, {}]
 
 # Alternative solution using list comprehension
-assert empty_list(5) == [dict() for _ in range(5)]</s>
+assert empty_list(5) == [dict() for _ in range(5)]

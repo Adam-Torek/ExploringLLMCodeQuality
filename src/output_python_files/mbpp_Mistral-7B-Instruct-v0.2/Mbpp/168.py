@@ -12,4 +12,4 @@ def frequency(lst, num):
     for i in lst:
         if i == num:
             count += 1
-    return count</s>
+    return count

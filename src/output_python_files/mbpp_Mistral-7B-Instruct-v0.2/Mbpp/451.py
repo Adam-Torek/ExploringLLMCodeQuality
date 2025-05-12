@@ -10,4 +10,4 @@ def remove_whitespaces(string):
     return string.replace(" ", "")
 
 # Test the function
-assert remove_whitespaces(' Google    Flutter ') == 'GoogleFlutter'</s>
+assert remove_whitespaces(' Google    Flutter ') == 'GoogleFlutter'

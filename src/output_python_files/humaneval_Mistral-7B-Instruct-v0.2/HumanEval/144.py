@@ -45,4 +45,4 @@ print(simplify("1/7", "1/14")) # True
 print(simplify("1/8", "3/8")) # True
 print(simplify("1/9", "3/9")) # True
 print(simplify("1/11", "2/11")) # True
-print(simplify("1/12", "1/3")) # False</s>
+print(simplify("1/12", "1/3")) # False

@@ -15,4 +15,4 @@ def last_digit_factorial(n):
     else:
         return (last_digit_factorial(n-1) * n) % 10
 
-assert last_digit_factorial(4) == 4</s>
+assert last_digit_factorial(4) == 4

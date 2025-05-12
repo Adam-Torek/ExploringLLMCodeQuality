@@ -17,4 +17,4 @@ def _sum(arr):
 assert _sum([1, 2, 3]) == 6
 assert _sum([0, 0, 0]) == 0
 assert _sum([-1, -2, -3]) == -6
-assert _sum([]) == 0</s>
+assert _sum([]) == 0

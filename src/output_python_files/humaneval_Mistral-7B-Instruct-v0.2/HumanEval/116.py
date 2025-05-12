@@ -17,4 +17,4 @@ def sort_array(arr):
 # Testing
 print(sort_array([1, 5, 2, 3, 4]))
 print(sort_array([-2, -3, -4, -5, -6]))
-print(sort_array([1, 0, 2, 3, 4]))</s>
+print(sort_array([1, 0, 2, 3, 4]))

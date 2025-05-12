@@ -21,4 +21,4 @@ assert min_of_three(10,10,10) == 10
 assert min_of_three(-1,-2,-3) == -3
 assert min_of_three(0.1,0.2,0.3) == 0.1
 assert min_of_three(100,200,300) == 100
-assert min_of_three(1000,2000,3000) == 1000</s>
+assert min_of_three(1000,2000,3000) == 1000

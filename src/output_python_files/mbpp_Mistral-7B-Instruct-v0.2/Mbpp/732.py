@@ -12,4 +12,4 @@ def replace_specialchar(string):
     return string.replace(" ", ":").replace(",", ":").replace(".", ":")
 
 # Test the function
-assert replace_specialchar('Python language, Programming language.') == 'Python:language::Programming:language:'</s>
+assert replace_specialchar('Python language, Programming language.') == 'Python:language::Programming:language:'

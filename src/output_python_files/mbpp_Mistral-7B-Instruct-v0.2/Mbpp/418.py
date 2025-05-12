@@ -13,4 +13,4 @@ def Find_Max(lst):
     return max_elem
 
 # Test case
-assert Find_Max([['A'],['A','B'],['A','B','C']]) == ['A','B','C']</s>
+assert Find_Max([['A'],['A','B'],['A','B','C']]) == ['A','B','C']

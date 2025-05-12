@@ -14,4 +14,4 @@ assert polar_rect(1,np.pi/2) == (np.sqrt(2), 1)
 assert polar_rect(1,np.pi/4) == (np.sqrt(2)/2, np.sqrt(2)/2)
 assert polar_rect(1,3*np.pi/2) == (-np.sqrt(2)/2, np.sqrt(2)/2)
 assert polar_rect(1,5*np.pi/4) == (-np.sqrt(2)/2, -np.sqrt(2)/2)
-assert polar_rect(1,7*np.pi/4) == (np.sqrt(2)/2, -np.sqrt(2)/2)</s>
+assert polar_rect(1,7*np.pi/4) == (np.sqrt(2)/2, -np.sqrt(2)/2)

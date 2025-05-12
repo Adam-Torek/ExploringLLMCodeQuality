@@ -10,4 +10,4 @@ def check_distinct(tuple_):
     return len(tuple_) == len(set(tuple_))
 
 assert check_distinct((1, 4, 5, 6, 1, 4)) == False
-assert check_distinct((1, 4, 5, 6, 7, 8)) == True</s>
+assert check_distinct((1, 4, 5, 6, 7, 8)) == True

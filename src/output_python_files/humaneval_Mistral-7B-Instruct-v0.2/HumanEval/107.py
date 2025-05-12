@@ -42,4 +42,4 @@ def even_odd_palindrome(n):
 # Test the function
 print(even_odd_palindrome(3)) # (1, 2)
 print(even_odd_palindrome(12)) # (4, 6)
-print(even_odd_palindrome(100)) # (34, 46)</s>
+print(even_odd_palindrome(100)) # (34, 46)

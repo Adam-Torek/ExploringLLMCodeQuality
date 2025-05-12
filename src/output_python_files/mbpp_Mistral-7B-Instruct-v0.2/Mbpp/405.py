@@ -14,4 +14,4 @@ def check_tuple(tuple_value, element):
         return False
 
 assert check_tuple(("w", 3, "r", "e", "s", "o", "u", "r", "c", "e"),'r')==True
-assert check_tuple(("w", 3, "r", "e", "s", "o", "u", "r", "c", "e"),'z')==False</s>
+assert check_tuple(("w", 3, "r", "e", "s", "o", "u", "r", "c", "e"),'z')==False

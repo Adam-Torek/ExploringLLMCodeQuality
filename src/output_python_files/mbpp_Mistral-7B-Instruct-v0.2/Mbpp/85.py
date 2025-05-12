@@ -10,4 +10,4 @@ def surfacearea_sphere(radius):
     :param radius: float
     :return: float
     """
-    return 4 * math.pi * (radius ** 2)</s>
+    return 4 * math.pi * (radius ** 2)

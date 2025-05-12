@@ -15,4 +15,4 @@ def change_date_format(date):
 
 if __name__ == "__main__":
     assert change_date_format("2026-01-02") == '02-01-2026'
-    print("Test passed!")</s>
+    print("Test passed!")

@@ -7,4 +7,4 @@ def list_to_float(lst):
 
 # Test case
 assert list_to_float( [("3", "4"), ("1", "26.45"), ("7.32", "8"), ("4", "8")] ) == [(3.0, 4.0), (1.0, 26.45), (7.32, 8.0), (4.0, 8.0)]
-print("Test passed!")</s>
+print("Test passed!")

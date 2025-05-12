@@ -22,4 +22,4 @@ print(is_simple_power(2, 2)) # true
 print(is_simple_power(8, 2)) # true
 print(is_simple_power(3, 2)) # false
 print(is_simple_power(3, 1)) # false
-print(is_simple_power(5, 3)) # false</s>
+print(is_simple_power(5, 3)) # false

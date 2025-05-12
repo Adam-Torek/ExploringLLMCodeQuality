@@ -52,4 +52,4 @@ print(maximum(arr, k)) # [4, 4]
 
 arr = [-3, 2, 1, 2, -1, -2, 1]
 k = 1
-print(maximum(arr, k)) # [2]</s>
+print(maximum(arr, k)) # [2]

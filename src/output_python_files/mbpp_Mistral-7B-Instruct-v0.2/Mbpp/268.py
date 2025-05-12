@@ -19,4 +19,4 @@ if __name__ == "__main__":
             self.assertEqual(find_star_num(10), 171)
             self.assertEqual(find_star_num(1), 1)
             self.assertEqual(find_star_num(0), 0)
-    unittest.main()</s>
+    unittest.main()

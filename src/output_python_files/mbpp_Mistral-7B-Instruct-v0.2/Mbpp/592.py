@@ -22,4 +22,4 @@ def sum_of_product(n):
 
 if __name__ == "__main__":
     assert sum_of_product(3) == 15
-    print("Test passed")</s>
+    print("Test passed")

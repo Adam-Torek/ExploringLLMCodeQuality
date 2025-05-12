@@ -20,4 +20,4 @@ print(specialFilter([15, -73, 14, -15]))
 print(specialFilter([33, -2, -3, 45, 21, 109]))
 print(specialFilter([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]))
 print(specialFilter([10, 11, 12, 13, 14, 15]))
-print(specialFilter([100, 111, 123, 135, 147, 159]))</s>
+print(specialFilter([100, 111, 123, 135, 147, 159]))

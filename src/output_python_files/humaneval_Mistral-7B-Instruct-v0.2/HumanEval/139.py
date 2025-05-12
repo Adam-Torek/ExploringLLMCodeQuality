@@ -22,4 +22,4 @@ def special_factorial(n):
 print(special_factorial(4))
 print(special_factorial(5))
 print(special_factorial(0))
-print(special_factorial(10))</s>
+print(special_factorial(10))

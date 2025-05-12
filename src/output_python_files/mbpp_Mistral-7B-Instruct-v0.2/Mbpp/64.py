@@ -13,4 +13,4 @@ def subject_marks(lst):
 
 # Test the function
 assert subject_marks([('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)])==[('Social sciences', 82), ('English', 88), ('Science', 90), ('Maths', 97)]
-print("Test passed!")</s>
+print("Test passed!")

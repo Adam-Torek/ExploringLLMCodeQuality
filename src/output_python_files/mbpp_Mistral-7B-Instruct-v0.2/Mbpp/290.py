@@ -11,4 +11,4 @@ def max_length(lst):
             max_lst = sub_lst
     return max_len, max_lst
 
-assert max_length([[0], [1, 3], [5, 7], [9, 11], [13, 15, 17]]) == (3, [13, 15, 17])</s>
+assert max_length([[0], [1, 3], [5, 7], [9, 11], [13, 15, 17]]) == (3, [13, 15, 17])

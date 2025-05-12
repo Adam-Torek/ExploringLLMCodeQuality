@@ -13,4 +13,4 @@ def check_str(string):
     """
     vowels = "aeiouAEIOU"
     pattern = re.compile(r"^[{}]".format(vowels))
-    return bool(pattern.match(string))</s>
+    return bool(pattern.match(string))

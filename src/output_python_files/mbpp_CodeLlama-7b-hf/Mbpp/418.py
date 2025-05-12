@@ -16,4 +16,3 @@ def Find_Max(lst):
 
 if __name__ == '__main__':
     print(Find_Max([['A'], ['A', 'B'], ['A', 'B', 'C']]))
-</s>

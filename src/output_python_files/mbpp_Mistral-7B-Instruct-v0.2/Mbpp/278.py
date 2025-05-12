@@ -11,4 +11,4 @@ def count_first_elements(tuple_):
             count += 1
     return count
 
-assert count_first_elements((1, 5, 7, (4, 6), 10)) == 3</s>
+assert count_first_elements((1, 5, 7, (4, 6), 10)) == 3

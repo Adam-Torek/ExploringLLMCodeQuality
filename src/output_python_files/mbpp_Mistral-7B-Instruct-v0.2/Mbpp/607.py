@@ -22,4 +22,4 @@ if __name__ == "__main__":
     assert find_literals('The quick brown fox jumps over the lazy dog.', 'fox') == ('fox', 16, 19)
     assert find_literals('The quick brown fox jumps over the lazy dog.', 'dog') == ('dog', 31, 34)
     assert find_literals('The quick brown fox jumps over the lazy dog.', 'cat') is None
-    assert find_literals('The quick brown fox jumps over the lazy dog.', '') == (None, -1, -1)</s>
+    assert find_literals('The quick brown fox jumps over the lazy dog.', '') == (None, -1, -1)

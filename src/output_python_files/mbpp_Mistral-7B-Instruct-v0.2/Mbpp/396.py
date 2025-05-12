@@ -12,4 +12,4 @@ def check_char(string):
 assert check_char("abba") == "Valid"
 assert check_char("hello") == "Invalid"
 assert check_char("a") == "Valid"
-assert check_char("") == "Valid"</s>
+assert check_char("") == "Valid"

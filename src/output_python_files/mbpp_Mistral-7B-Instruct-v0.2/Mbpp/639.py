@@ -17,4 +17,4 @@ def sample_names(names_list):
     return sum(len(name) for name in names_list if name[0].isupper())
 
 assert sample_names(['sally', 'Dylan', 'rebecca', 'Diana', 'Joanne', 'keith']) == 16
-print(sample_names(['sally', 'Dylan', 'rebecca', 'Diana', 'Joanne', 'keith']))</s>
+print(sample_names(['sally', 'Dylan', 'rebecca', 'Diana', 'Joanne', 'keith']))

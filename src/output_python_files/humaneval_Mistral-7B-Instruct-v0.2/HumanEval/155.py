@@ -19,4 +19,4 @@ def even_odd_count(num):
 print(even_odd_count(-12))
 print(even_odd_count(123))
 print(even_odd_count(12345))
-print(even_odd_count(123045))</s>
+print(even_odd_count(123045))

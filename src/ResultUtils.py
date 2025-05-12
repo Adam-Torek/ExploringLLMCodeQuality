@@ -17,20 +17,25 @@ def get_model_name_benchmark_quant(input_str):
     model_name = re.sub(" V[0-9].[0-9]","", model_name)
     
     quant = ""
-    if "8 bit" in model_name:
+    if "8 bit" in model_name or "8_bit" in model_name:
         quant = "8 bit"
         model_name = model_name.replace(" AWQ 8 bit","")
         model_name = model_name.replace(" awq 8 bit","")
-    elif "4 bit" in model_name:
+        model_name = model_name.replace(" 8 bit", "")
+    elif "4_bit" in model_name or "4 bit" in model_name:
         quant = "4 bit"
         model_name = model_name.replace(" AWQ 4 bit","")
         model_name = model_name.replace(" awq 4 bit","")
+        model_name = model_name.replace(" 4 bit", "")
     else:
         quant = "unquantized"
 
     return (model_name, benchmark, quant)
 
-def put_score_into_dict(dictionary, model_name, benchmark, quant, score):
+def put_score_into_dict(dictionary, model_name, benchmark, quant, score, use_plus=False):
+
+    if use_plus:
+        benchmark = benchmark + " Plus"
 
     if model_name not in dictionary:
         dictionary[model_name] = {}

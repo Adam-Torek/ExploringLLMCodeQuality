@@ -15,4 +15,4 @@ def all_Characters_Same(string):
 assert all_Characters_Same("python") == False
 assert all_Characters_Same("a") == True
 assert all_Characters_Same("aa") == True
-assert all_Characters_Same("pythonpython") == True</s>
+assert all_Characters_Same("pythonpython") == True

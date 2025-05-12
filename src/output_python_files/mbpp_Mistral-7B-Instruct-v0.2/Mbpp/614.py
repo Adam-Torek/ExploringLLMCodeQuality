@@ -16,4 +16,4 @@ assert cummulative_sum([1, 2, 3, 4, 5]) == 15
 assert cummulative_sum([1, 2, 3]) == 6
 assert cummulative_sum([1, 2]) == 3
 assert cummulative_sum([1]) == 1
-assert cummulative_sum([]) == 0</s>
+assert cummulative_sum([]) == 0

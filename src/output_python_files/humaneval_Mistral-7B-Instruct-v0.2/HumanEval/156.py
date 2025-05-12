@@ -29,4 +29,4 @@ def int_to_mini_roman(number):
 
 if __name__ == '__main__':
     import doctest
-    doctest.testmod()</s>
+    doctest.testmod()

@@ -11,4 +11,4 @@ def sumofFactors(n):
         i += 1
     return sum
 
-assert sumofFactors(18) == 26</s>
+assert sumofFactors(18) == 26

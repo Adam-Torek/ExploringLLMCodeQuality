@@ -43,4 +43,4 @@ if __name__ == '__main__':
 
     print(find_two_strings_with_only_one_bit_difference(['01101101', '01101100', '11110101']))
     print(find_two_strings_with_only_one_bit_difference(['11111111', '01111110', '10111110']))
-    print(find_two_strings_with_only_one_bit_difference(['11111111', '11111111']))</s>
+    print(find_two_strings_with_only_one_bit_difference(['11111111', '11111111']))

@@ -11,4 +11,4 @@ def area_tetrahedron(side):
     area = (math.sqrt(2)*side**2)/4
     return area
 
-assert area_tetrahedron(3) == 15.588457268119894</s>
+assert area_tetrahedron(3) == 15.588457268119894

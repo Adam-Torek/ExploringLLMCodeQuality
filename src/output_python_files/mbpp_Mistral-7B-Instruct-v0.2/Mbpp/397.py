@@ -21,4 +21,4 @@ def median_numbers(num1, num2, num3):
 assert median_numbers(25,55,65)==55.0
 assert median_numbers(1,2,3)==2.0
 assert median_numbers(1,2,3,4)==2.5
-assert median_numbers(1,2,3,4,5)==3.0</s>
+assert median_numbers(1,2,3,4,5)==3.0

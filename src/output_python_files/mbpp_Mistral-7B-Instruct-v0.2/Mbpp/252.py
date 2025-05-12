@@ -16,4 +16,4 @@ def convert(complex_num):
 if __name__ == "__main__":
     assert convert(1) == (1.0, 0.0)
     assert convert(3 + 4j) == (5.0, 0.6435013138598855)
-    assert convert(-1 - 1j) == (2.0, 3.141592653589793)</s>
+    assert convert(-1 - 1j) == (2.0, 3.141592653589793)

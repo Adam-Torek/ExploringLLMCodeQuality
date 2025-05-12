@@ -28,4 +28,4 @@ def fact(n):
 
 if __name__ == "__main__":
     n = int(input())
-    print(f(n))</s>
+    print(f(n))

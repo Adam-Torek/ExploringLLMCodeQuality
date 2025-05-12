@@ -14,4 +14,4 @@ def lateralsurface_cone(r, h):
     lateral_surface_area = math.pi * r * math.sqrt(r**2 + h**2)
     return lateral_surface_area
 
-assert lateralsurface_cone(5,12) == 204.20352248333654</s>
+assert lateralsurface_cone(5,12) == 204.20352248333654

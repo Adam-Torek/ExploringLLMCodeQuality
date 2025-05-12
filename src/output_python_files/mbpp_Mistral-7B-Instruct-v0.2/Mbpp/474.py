@@ -18,4 +18,4 @@ def replace_char(string, char_to_replace, new_char):
 
 assert replace_char("polygon",'y','l')==("pollgon")
 assert replace_char("hello",'l','o')==("heooo")
-assert replace_char("python",'t','h')==("pyhthon")</s>
+assert replace_char("python",'t','h')==("pyhthon")

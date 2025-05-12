@@ -8,4 +8,4 @@ def extract_rear(tuple_str):
 # Testing the function
 assert extract_rear(('Mers', 'for', 'Vers')) == ['s', 'r', 's']
 assert extract_rear(('apple', 'banana', 'cherry')) == ['e', 'a', 'y']
-assert extract_rear(('cat', 'dog', 'elephant')) == ['t', 'g', 'p']</s>
+assert extract_rear(('cat', 'dog', 'elephant')) == ['t', 'g', 'p']

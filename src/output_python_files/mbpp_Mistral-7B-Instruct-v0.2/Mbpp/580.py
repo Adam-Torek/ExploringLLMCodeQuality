@@ -12,4 +12,4 @@ def extract_even(nested_tuple):
                 result.append(element)
     return tuple(result)
 
-assert extract_even((4, 5, (7, 6, (2, 4)), 6, 8)) == (4, (6, (2, 4)), 6, 8)</s>
+assert extract_even((4, 5, (7, 6, (2, 4)), 6, 8)) == (4, (6, (2, 4)), 6, 8)

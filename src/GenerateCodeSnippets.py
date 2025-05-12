@@ -5,6 +5,7 @@ from itertools import islice
 import torch
 from evalplus.data import get_mbpp_plus, get_human_eval_plus, write_jsonl
 from enum import Enum
+import os
 
 class QuantizeType(Enum):
     NONE = 0
@@ -29,7 +30,7 @@ def get_output_name(model_name, quantization):
     return model_name
 
 def generate_code(prompts, model, tokenizer, device):
-        inputs = tokenizer(prompts, return_tensors="pt", padding=True).to(device)
+        inputs = tokenizer(prompts, return_tensors="pt", padding_side="left", padding=True).to(device)
         outputs = model.generate(**inputs, 
                         do_sample=True, 
                          temperature=0.1, 
@@ -62,41 +63,55 @@ def gen_dataset_samples(dataset, model, tokenizer, device, quantize):
 
 
 def main():
-    models = {"none":{"CodeLlama":"codellama/CodeLlama-7b-hf",
-                    "WizardCoder":"WizardLM/WizardCoder-3B-V1.0",
-                    "StarCoder2":"bigcode/starcoder2-7b",
-                    "Mistral":"mistralai/Mistral-7B-Instruct-v0.2"},
-            "8_bit":{"CodeLlama":"TheBloke/CodeLlama-7B-AWQ",
-                    "WizardCoder":"models_quantized/WizardCoder-3B-awq",
-                    "StarCoder2":"bigcode/starcoder2-7b",
-                    "Mistral":"TheBloke/Mistral-7B-Instruct-v0.1-AWQ"}}
-    quantize = QuantizeType.EIGHT_BIT
-    device = "cuda"
-    model_id = "TheBloke/Mistral-7B-Instruct-v0.1-AWQ"
-    q_conf = None
-
-    tokenizer = None
-    if "WizardCoder" in model_id and QuantizeType != None:
-        tokenizer = AutoTokenizer.from_pretrained(model_id, padding_side="left")
-    else:
-        tokenizer = AutoTokenizer.from_pretrained(model_id)
-    tokenizer.pad_token = tokenizer.bos_token
-
-    if quantize != QuantizeType.NONE:
-        if quantize == QuantizeType.EIGHT_BIT:
-            q_conf = AwqConfig(weights="int8")
-        elif quantize == QuantizeType.FOUR_BIT:
-            q_conf = AwqConfig(weights="int4")
+    model_keys = ["CodeLlama",
+                    "WizardCoder",
+                    "StarCoder2", 
+                    "Mistral"]
     
-    model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.float16, quantization_config=q_conf)
-    model.to(device)
-    model.config.pad_token_id = model.config.bos_token_id
+    models_standard = {"CodeLlama":"codellama/CodeLlama-7b-hf",
+                    "WizardCoder":"vanillaOVO/WizardCoder-Python-7B-V1.0",
+                    "StarCoder2":"bigcode/starcoder2-7b",
+                    "Mistral":"mistralai/Mistral-7B-Instruct-v0.2"}
+    
+    models_quantized = {"CodeLlama":"TheBloke/CodeLlama-7B-AWQ",
+                    "WizardCoder":"TheBloke/WizardCoder-Python-7B-V1.0-AWQ",
+                    "StarCoder2":"models_quantized/starcoder2-7b-awq",
+                    "Mistral":"TheBloke/Mistral-7B-Instruct-v0.1-AWQ"}
+    
+    results_folder = "generated_code"
+    
+    device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    humaneval_results = gen_dataset_samples(get_human_eval_plus(), model, tokenizer, device, quantize)
-    mbpp_results = gen_dataset_samples(get_mbpp_plus(), model, tokenizer, device, quantize)
+    for quantization in QuantizeType:
+        for model_name in model_keys:
+        
+            model_id = models_standard[model_name]
+            q_conf = None
+            if quantization != QuantizeType.NONE:
+                model_id = models_quantized[model_name]
+                if quantization == QuantizeType.EIGHT_BIT:
+                    q_conf = AwqConfig(weights="int8")
+                elif quantization == QuantizeType.FOUR_BIT:
+                    q_conf = AwqConfig(weights="int4")
 
-    write_jsonl("humaneval_" + get_output_name(model_id, quantize) + "" + ".jsonl", humaneval_results)
-    write_jsonl("mbpp_" + get_output_name(model_id, quantize) + "" + ".jsonl", mbpp_results)
+            tokenizer = AutoTokenizer.from_pretrained(model_id, padding_size="left")
+            tokenizer.pad_token = tokenizer.bos_token
+            
+            model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.float16, quantization_config=q_conf)
+            model.to(device)
+            model.config.pad_token_id = model.config.bos_token_id
+
+            human_eval_output_name = "humaneval_" + get_output_name(model_id, quantization) + "" + ".jsonl"
+            mbpp_eval_output_name = "mbpp_" + get_output_name(model_id, quantization) + "" + ".jsonl"
+            human_eval_output_path = os.path.join(results_folder, human_eval_output_name)
+            mbpp_eval_output_path = os.path.join(results_folder, mbpp_eval_output_name)
+            if not os.path.exists(human_eval_output_path):
+                humaneval_results = gen_dataset_samples(get_human_eval_plus(), model, tokenizer, device, quantization)
+                write_jsonl(human_eval_output_path, humaneval_results)
+
+            if not os.path.exists(mbpp_eval_output_path):
+                mbpp_results = gen_dataset_samples(get_mbpp_plus(), model, tokenizer, device, quantization)
+                write_jsonl(mbpp_eval_output_path, mbpp_results)
 
 if __name__ == "__main__":
     main()

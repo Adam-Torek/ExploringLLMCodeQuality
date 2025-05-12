@@ -15,4 +15,4 @@ def sum_in_range(l, r):
             sum += i
     return sum
 
-assert sum_in_range(2,5) == 8</s>
+assert sum_in_range(2,5) == 8

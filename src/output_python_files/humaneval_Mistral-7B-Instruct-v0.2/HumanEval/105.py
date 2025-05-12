@@ -38,4 +38,4 @@ print(by_length([2, 1, 1, 4, 5, 8, 2, 3])) # ["Eight", "Five", "Four", "Three", 
 print(by_length([1, -1, 55])) # ['One']
 print(by_length([])) # []
 print(by_length([10, 11, 12])) # []
-print(by_length([100, 11, 12])) # []</s>
+print(by_length([100, 11, 12])) # []

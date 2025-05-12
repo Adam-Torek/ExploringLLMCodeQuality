@@ -43,4 +43,4 @@ def find_min_diff(arr, diff):
 assert find_min_diff((1,5,3,19,18,25), 6) == False
 assert find_min_diff((1,5,3,19,18,25), 1) == True
 assert find_min_diff((1,5,3,19,18,25), 2) == True
-assert find_min_diff((1,5,3,19,18,25), 24) == False</s>
+assert find_min_diff((1,5,3,19,18,25), 24) == False

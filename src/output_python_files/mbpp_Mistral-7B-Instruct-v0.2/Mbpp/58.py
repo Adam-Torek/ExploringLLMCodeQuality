@@ -8,4 +8,4 @@ def opposite_Signs(num1, num2):
     :param num2: an integer
     :return: True if the given two integers have opposite signs, False otherwise
     """
-    return num1 * num2 < 0</s>
+    return num1 * num2 < 0

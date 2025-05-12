@@ -10,4 +10,4 @@ def replace_spaces(string):
     """
     return string.replace(" ", "_").replace("_", " ")
 
-assert replace_spaces('Jumanji The Jungle') == 'Jumanji_The_Jungle'</s>
+assert replace_spaces('Jumanji The Jungle') == 'Jumanji_The_Jungle'

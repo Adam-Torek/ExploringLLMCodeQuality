@@ -60,4 +60,4 @@ def filter_dicts(values: List[Any]) -> List[dict]:
     >>> filter_dicts(['a', 3.14, 5])
     []
     >>> filter_dicts([1, 2, 3, 'abc', {}, []])
-    [{}</s>
+    [{}

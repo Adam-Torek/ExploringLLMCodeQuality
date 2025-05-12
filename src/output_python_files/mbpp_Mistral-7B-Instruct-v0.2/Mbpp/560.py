@@ -17,4 +17,4 @@ assert union_elements((1, 2, 3),(3, 4, 5)) == (1, 2, 3, 4, 5)
 assert union_elements((1, 2, 3),(3, 3, 3)) == (1, 2, 3)
 assert union_elements((1,),(1,)) == (1)
 assert union_elements((1,),()) == ()
-assert union_elements((),(1,)) == (1)</s>
+assert union_elements((),(1,)) == (1)

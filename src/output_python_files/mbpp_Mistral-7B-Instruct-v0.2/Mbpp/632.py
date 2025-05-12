@@ -30,4 +30,4 @@ assert move_zero([1,0,2,0,3,4]) == [1,2,3,4,0,0]
 assert move_zero([0,1,2,0,3,4]) == [1,2,3,4,0,0]
 assert move_zero([0,0,1,2,3,4]) == [1,2,3,4,0,0]
 assert move_zero([]) == []
-assert move_zero([5,5,5]) == [5,5,5]</s>
+assert move_zero([5,5,5]) == [5,5,5]

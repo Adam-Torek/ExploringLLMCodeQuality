@@ -19,4 +19,4 @@ assert unique_Element([1,1,1]) == True
 assert unique_Element([1,2,3]) == False
 assert unique_Element([1,1,2]) == False
 assert unique_Element([1]) == True
-assert unique_Element([]) == True</s>
+assert unique_Element([]) == True

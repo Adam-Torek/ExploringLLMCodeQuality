@@ -18,4 +18,4 @@ assert sequence(6) == 8
 assert sequence(7) == 13
 assert sequence(8) == 21
 assert sequence(9) == 34
-assert sequence(10) == 55</s>
+assert sequence(10) == 55

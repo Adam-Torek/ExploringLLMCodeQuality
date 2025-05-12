@@ -10,4 +10,4 @@ def tuple_modulo(tuple1, tuple2):
     """
     return tuple(i % j for i, j in zip(tuple1, tuple2))
 
-assert tuple_modulo((10, 4, 5, 6), (5, 6, 7, 5)) == (0, 4, 5, 1)</s>
+assert tuple_modulo((10, 4, 5, 6), (5, 6, 7, 5)) == (0, 4, 5, 1)

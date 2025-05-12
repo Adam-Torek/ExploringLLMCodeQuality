@@ -8,4 +8,4 @@ def list_tuple(lst):
     :param lst: list
     :return: tuple
     """
-    return tuple(lst)</s>
+    return tuple(lst)

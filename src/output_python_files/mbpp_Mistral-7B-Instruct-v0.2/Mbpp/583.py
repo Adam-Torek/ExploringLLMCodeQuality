@@ -15,4 +15,4 @@ if __name__ == "__main__":
         n = int(sys.argv[1])
         print(catalan_number(n))
     except (IndexError, ValueError):
-        print("Usage: python catalan.py <non-negative-integer>")</s>
+        print("Usage: python catalan.py <non-negative-integer>")

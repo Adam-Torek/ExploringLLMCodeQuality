@@ -27,4 +27,4 @@ assert split_arr([1], 1) == [1]
 assert split_arr([1], 2) == [1]
 assert split_arr([1,2], 0) == [2,1]
 assert split_arr([1,2], 1) == [2]
-assert split_arr([1,2], 2) == [1]</s>
+assert split_arr([1,2], 2) == [1]

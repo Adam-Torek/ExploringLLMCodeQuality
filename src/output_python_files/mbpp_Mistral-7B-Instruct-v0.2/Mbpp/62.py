@@ -17,4 +17,4 @@ assert smallest_num([10, 20, 1, 45, 99]) == 1
 assert smallest_num([-5, 0, 1, 45, 99]) == -5
 assert smallest_num([1, 1, 1, 1]) == 1
 assert smallest_num([]) is None
-assert smallest_num([None, None, None]) is None</s>
+assert smallest_num([None, None, None]) is None

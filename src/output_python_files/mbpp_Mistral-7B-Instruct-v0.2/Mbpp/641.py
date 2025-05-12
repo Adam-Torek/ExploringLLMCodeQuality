@@ -23,4 +23,4 @@ def nonagonal_number(n):
 
 if __name__ == "__main__":
     for i in range(1, 11):
-        print(f"Nonagonal number {i} is {nonagonal_number(i)}")</s>
+        print(f"Nonagonal number {i} is {nonagonal_number(i)}")

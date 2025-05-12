@@ -11,4 +11,4 @@ def check_greater(arr, num):
     return num > max(arr)
 
 assert check_greater([1, 2, 3, 4, 5], 4) == False
-assert check_greater([1, 2, 3, 4, 5], 6) == True</s>
+assert check_greater([1, 2, 3, 4, 5], 6) == True

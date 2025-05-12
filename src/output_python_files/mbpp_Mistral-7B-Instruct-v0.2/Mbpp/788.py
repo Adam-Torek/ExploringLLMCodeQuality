@@ -9,4 +9,4 @@ def new_tuple(string, list):
     :param list: list
     :return: tuple
     """
-    return tuple(string.split() + list)</s>
+    return tuple(string.split() + list)

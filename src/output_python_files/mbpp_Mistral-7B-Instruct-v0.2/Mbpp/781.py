@@ -25,4 +25,4 @@ if __name__ == "__main__":
     assert not is_even_count(13)
     assert is_even_count(14)
     assert not is_even_count(15)
-    print("All tests passed")</s>
+    print("All tests passed")

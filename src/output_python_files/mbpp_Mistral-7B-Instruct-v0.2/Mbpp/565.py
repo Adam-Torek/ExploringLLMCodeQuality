@@ -11,4 +11,4 @@ def split(string):
     """
     return list(string)
 
-assert split('python') == ['p','y','t','h','o','n']</s>
+assert split('python') == ['p','y','t','h','o','n']

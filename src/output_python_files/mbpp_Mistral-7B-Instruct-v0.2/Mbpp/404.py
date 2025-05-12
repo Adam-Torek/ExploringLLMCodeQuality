@@ -15,4 +15,4 @@ def minimum(num1, num2):
     else:
         return num2
 
-assert minimum(1,2) == 1</s>
+assert minimum(1,2) == 1

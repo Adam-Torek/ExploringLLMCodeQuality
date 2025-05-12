@@ -8,4 +8,4 @@ def is_woodball(num):
     :return: bool
     """
     woodball = "383"
-    return str(num) == woodball or str(num)[::-1] == woodball</s>
+    return str(num) == woodball or str(num)[::-1] == woodball

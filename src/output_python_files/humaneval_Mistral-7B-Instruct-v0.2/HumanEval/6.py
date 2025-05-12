@@ -22,4 +22,4 @@ def parse_nested_parens(paren_string: str) -> List[int]:
 if __name__ == "__main__":
     import doctest
 
-    doctest.testmod()</s>
+    doctest.testmod()

@@ -11,4 +11,4 @@ def tetrahedral_number(n):
 if __name__ == "__main__":
     n = 5
     assert tetrahedral_number(n) == 35
-    print(f"The {n}th tetrahedral number is {tetrahedral_number(n)}")</s>
+    print(f"The {n}th tetrahedral number is {tetrahedral_number(n)}")

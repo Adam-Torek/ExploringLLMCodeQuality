@@ -15,4 +15,4 @@ def jacobsthal_num(n):
 
 if __name__ == "__main__":
     for n in [0, 1, 5, 10, 15, 20]:
-        print(f"jacobsthal_num({n}) = {jacobsthal_num(n)}")</s>
+        print(f"jacobsthal_num({n}) = {jacobsthal_num(n)}")

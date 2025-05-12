@@ -25,4 +25,4 @@ assert find_tuples([], 4) == []
 assert find_tuples([], 6) == []
 assert find_tuples([], 8) == []
 assert find_tuples([], 9) == []
-assert find_tuples([], 10) == []</s>
+assert find_tuples([], 10) == []

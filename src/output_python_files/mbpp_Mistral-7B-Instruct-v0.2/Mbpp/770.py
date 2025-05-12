@@ -14,4 +14,4 @@ def odd_num_sum(n):
         i += 1
     return sum
 
-assert odd_num_sum(2) == 82</s>
+assert odd_num_sum(2) == 82

@@ -13,4 +13,4 @@ assert last_digit(123) == 3
 assert last_digit(-123) == 3
 assert last_digit(0) == 0
 assert last_digit(1024) == 4
-assert last_digit(10000) == 0</s>
+assert last_digit(10000) == 0

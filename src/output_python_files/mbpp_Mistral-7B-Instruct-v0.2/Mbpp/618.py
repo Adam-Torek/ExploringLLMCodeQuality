@@ -11,4 +11,4 @@ def div_list(lst1, lst2):
     """
     return [i/j for i,j in zip(lst1,lst2)]
 
-assert div_list([4,5,6],[1, 2, 3])==[4.0,2.5,2.0]</s>
+assert div_list([4,5,6],[1, 2, 3])==[4.0,2.5,2.0]

@@ -17,4 +17,3 @@ def cal_sum(n):
 
 if __name__ == '__main__':
     print(cal_sum(9))
-</s>

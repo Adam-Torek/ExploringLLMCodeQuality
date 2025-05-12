@@ -9,4 +9,4 @@ def find_Average_Of_Cube(n):
     average = sum / n
     return average
 
-assert find_Average_Of_Cube(2) == 4.5</s>
+assert find_Average_Of_Cube(2) == 4.5

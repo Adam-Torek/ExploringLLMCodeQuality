@@ -24,4 +24,4 @@ def Split(numbers):
 
 if __name__ == "__main__":
     numbers = [1,2,3,4,5]
-    print(find_even_numbers(numbers))</s>
+    print(find_even_numbers(numbers))

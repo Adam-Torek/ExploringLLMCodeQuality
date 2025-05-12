@@ -15,4 +15,4 @@ def first_odd(numbers):
         if number % 2 != 0:
             return number
 
-    return None</s>
+    return None

@@ -17,4 +17,4 @@ def swap_list(input_list):
 assert swap_list([12, 35, 9, 56, 24]) == [24, 35, 9, 56, 12]
 assert swap_list([]) == []
 assert swap_list([1]) == [1]
-assert swap_list([1, 2]) == [2, 1]</s>
+assert swap_list([1, 2]) == [2, 1]

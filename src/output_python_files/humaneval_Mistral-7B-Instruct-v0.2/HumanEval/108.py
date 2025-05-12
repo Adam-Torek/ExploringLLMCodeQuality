@@ -22,4 +22,4 @@ if __name__ == '__main__':
     print(count_nums([-1, 11, -11]))
     print(count_nums([1, 1, 2]))
     print(count_nums([]))
-    print(count_nums([-123, 456, 789]))</s>
+    print(count_nums([-123, 456, 789]))

@@ -16,4 +16,4 @@ if __name__ == "__main__":
     numbers = [25, 35, 22, 85, 14, 65, 75, 22, 58]
     n = 3
     assert heap_queue_largest(numbers, n) == [85, 75, 65]
-    print("Test passed")</s>
+    print("Test passed")

@@ -16,4 +16,4 @@ def dif_Square(n):
             continue
         else:
             return True
-    return False</s>
+    return False

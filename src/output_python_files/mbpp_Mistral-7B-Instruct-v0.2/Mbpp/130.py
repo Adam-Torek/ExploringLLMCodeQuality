@@ -16,4 +16,4 @@ def max_occurrences(numbers):
 if __name__ == "__main__":
     assert max_occurrences([2,3,8,4,7,9,8,2,6,5,1,6,1,2,3,2,4,6,9,1,2]) == 2
     assert max_occurrences([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]) == 1
-    assert max_occurrences([1,2,3,4,5,6,7,8,9]) == None</s>
+    assert max_occurrences([1,2,3,4,5,6,7,8,9]) == None

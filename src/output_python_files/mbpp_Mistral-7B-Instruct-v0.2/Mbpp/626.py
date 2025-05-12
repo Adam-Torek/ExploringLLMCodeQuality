@@ -19,4 +19,4 @@ if __name__ == "__main__":
     if area is not None:
         print(f"The area of the largest triangle that can be inscribed in a semicircle with a radius of {radius} is {area:.2f}")
     else:
-        print("Invalid input")</s>
+        print("Invalid input")

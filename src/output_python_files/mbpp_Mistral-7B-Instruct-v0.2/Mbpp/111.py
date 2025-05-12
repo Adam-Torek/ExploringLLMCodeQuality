@@ -18,4 +18,4 @@ def common_in_nested_lists(nested_lists):
 
 # Test the function
 nested_lists = [[12, 18, 23, 25, 45], [7, 12, 18, 24, 28], [1, 5, 8, 12, 15, 16, 18]]
-assert set(common_in_nested_lists(nested_lists))==set([18, 12])</s>
+assert set(common_in_nested_lists(nested_lists))==set([18, 12])

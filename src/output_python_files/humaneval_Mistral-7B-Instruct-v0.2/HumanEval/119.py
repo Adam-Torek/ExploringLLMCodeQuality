@@ -34,4 +34,4 @@ print(match_parens([')', ')']))
 print(match_parens(['(', ')']))
 print(match_parens(['(', '(']))
 print(match_parens(['(', '('] * 1000))
-print(match_parens(['(', '('] * 10000))</s>
+print(match_parens(['(', '('] * 10000))

@@ -11,4 +11,4 @@ def surfacearea_cube(size):
     surface_area = 6 * (size ** 2)
     return surface_area
 
-assert surfacearea_cube(5) == 150</s>
+assert surfacearea_cube(5) == 150

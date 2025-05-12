@@ -21,4 +21,4 @@ if __name__ == "__main__":
     assert toggle_middle_bits(1) == 1
     assert toggle_middle_bits(16) == 14
     assert toggle_middle_bits(14) == 16
-    print("All tests passed")</s>
+    print("All tests passed")

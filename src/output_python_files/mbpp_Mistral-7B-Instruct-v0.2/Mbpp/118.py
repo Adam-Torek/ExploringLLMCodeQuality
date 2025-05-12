@@ -10,4 +10,4 @@ def string_to_list(input_string):
     :return: A list of strings.
     """
     # Use the split() method to split the string into a list of strings based on the space character.
-    return input_string.split()</s>
+    return input_string.split()

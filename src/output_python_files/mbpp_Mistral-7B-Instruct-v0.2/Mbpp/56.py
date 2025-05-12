@@ -16,4 +16,4 @@ assert check(354254) == True
 assert check(12345) == False
 assert check(2002) == True
 assert check(1234567) == True
-assert check(1234560246) == True</s>
+assert check(1234560246) == True

@@ -18,4 +18,4 @@ def lateral_surface_area_cylinder(radius, height):
     lateral_surface_area = 2 * math.pi * radius * height
     return lateral_surface_area
 
-assert math.isclose(lateralsuface_cylinder(10,5), 314.15000000000003, rel_tol=0.001)</s>
+assert math.isclose(lateralsuface_cylinder(10,5), 314.15000000000003, rel_tol=0.001)

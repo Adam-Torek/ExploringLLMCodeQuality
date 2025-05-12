@@ -16,4 +16,4 @@ def right_angle_triangle(a, b, c):
 print(right_angle_triangle(3, 4, 5)) # True
 print(right_angle_triangle(1, 2, 3)) # False
 print(right_angle_triangle(5, 12, 13)) # True
-print(right_angle_triangle(3, 4, 6)) # False</s>
+print(right_angle_triangle(3, 4, 6)) # False

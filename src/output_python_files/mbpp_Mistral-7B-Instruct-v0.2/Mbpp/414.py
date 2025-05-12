@@ -17,4 +17,4 @@ def overlapping(seq1, seq2):
 # Test case
 assert overlapping([1,2,3,4,5],[6,7,8,9]) == False
 assert overlapping([1,2,3,4,5],[1,2,3,4,5]) == True
-assert overlapping([1,2,3,4,5],[1,2,3,4,5,6]) == True</s>
+assert overlapping([1,2,3,4,5],[1,2,3,4,5,6]) == True

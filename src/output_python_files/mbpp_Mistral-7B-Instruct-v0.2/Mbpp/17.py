@@ -7,4 +7,4 @@ def square_perimeter(side_length):
     :param side_length: the length of one side of the square
     :return: the perimeter of the square
     """
-    return 4 * side_length</s>
+    return 4 * side_length

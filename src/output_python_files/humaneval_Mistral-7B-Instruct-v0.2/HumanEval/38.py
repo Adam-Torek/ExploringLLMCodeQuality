@@ -24,4 +24,4 @@ def decode_cyclic(s: str):
 if __name__ == "__main__":
     s = "aabbbcddd"
     print(encode_cyclic(s))
-    print(decode_cyclic(encode_cyclic(s)))</s>
+    print(decode_cyclic(encode_cyclic(s)))

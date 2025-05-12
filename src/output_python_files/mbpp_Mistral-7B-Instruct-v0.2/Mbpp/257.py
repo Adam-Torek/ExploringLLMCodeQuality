@@ -11,4 +11,4 @@ def swap_numbers(num1, num2):
     """
     return (num2, num1)
 
-assert swap_numbers(10,20)==(20,10)</s>
+assert swap_numbers(10,20)==(20,10)

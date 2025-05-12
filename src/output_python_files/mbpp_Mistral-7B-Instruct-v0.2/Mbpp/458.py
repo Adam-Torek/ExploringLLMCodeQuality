@@ -12,4 +12,4 @@ def rectangle_area(length, width):
     area = length * width
     return area
 
-assert rectangle_area(10, 20) == 200</s>
+assert rectangle_area(10, 20) == 200

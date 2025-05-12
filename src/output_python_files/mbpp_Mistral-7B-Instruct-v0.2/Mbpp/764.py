@@ -10,4 +10,4 @@ def number_ctr(string):
     """
     return sum(1 for char in string if char.isdigit())
 
-assert number_ctr('program2bedone') == 2</s>
+assert number_ctr('program2bedone') == 2

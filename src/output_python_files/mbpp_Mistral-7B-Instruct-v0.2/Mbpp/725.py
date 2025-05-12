@@ -11,4 +11,4 @@ def extract_quotation(string):
     pattern = r'(?<=")[^"]+(?=")'
     return re.findall(pattern, string)
 
-assert extract_quotation('Cortex "A53" Based "multi" tasking "Processor"') == ['A53', 'multi', 'Processor']</s>
+assert extract_quotation('Cortex "A53" Based "multi" tasking "Processor"') == ['A53', 'multi', 'Processor']

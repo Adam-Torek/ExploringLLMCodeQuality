@@ -18,4 +18,4 @@ if __name__ == "__main__":
             self.assertTrue(test_duplicate([1, 2, 2, 3, 4, 5]))
             self.assertTrue(test_duplicate([1, 1, 1, 1, 1, 1]))
 
-    unittest.main()</s>
+    unittest.main()

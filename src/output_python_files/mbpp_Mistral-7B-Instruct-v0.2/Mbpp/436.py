@@ -14,4 +14,4 @@ def neg_nos(numbers):
 
 if __name__ == "__main__":
     assert neg_nos([-1,4,5,-6]) == [-1,-6]
-    print("Test passed!")</s>
+    print("Test passed!")

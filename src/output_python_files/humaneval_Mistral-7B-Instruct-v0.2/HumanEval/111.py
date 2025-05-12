@@ -25,4 +25,4 @@ print(histogram('a b c'))
 print(histogram('a b b a'))
 print(histogram('a b c a b'))
 print(histogram('b b b b a'))
-print(histogram(''))</s>
+print(histogram(''))

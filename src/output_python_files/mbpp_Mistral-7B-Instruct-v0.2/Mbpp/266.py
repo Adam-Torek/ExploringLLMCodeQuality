@@ -11,4 +11,4 @@ def lateralsurface_cube(side_length):
     lateral_surface_area = 6 * side_length ** 2
     return lateral_surface_area
 
-assert lateralsurface_cube(5) == 100</s>
+assert lateralsurface_cube(5) == 100

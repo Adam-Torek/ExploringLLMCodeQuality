@@ -22,4 +22,4 @@ assert is_Sub_Array([1,4,3,5],[1,4,3,5,6,7,8,5]) == True
 assert is_Sub_Array([],[]) == True
 assert is_Sub_Array([1],[1,2,1]) == True
 assert is_Sub_Array([1,2],[1,2,1,2]) == True
-assert is_Sub_Array([1,2],[1,1,1,2]) == False</s>
+assert is_Sub_Array([1,2],[1,1,1,2]) == False

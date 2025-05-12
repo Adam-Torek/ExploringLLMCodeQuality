@@ -11,4 +11,4 @@ def add_tuple(lst, tpl):
     :return: list
     """
     lst.extend(tpl)
-    return lst</s>
+    return lst

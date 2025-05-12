@@ -26,4 +26,4 @@ print(words_string("Hi, my name is John"))
 print(words_string("One, two, three, four, five, six"))
 print(words_string("The quick brown fox jumps over the lazy dog"))
 print(words_string(""))
-print(words_string("Hello World"))</s>
+print(words_string("Hello World"))

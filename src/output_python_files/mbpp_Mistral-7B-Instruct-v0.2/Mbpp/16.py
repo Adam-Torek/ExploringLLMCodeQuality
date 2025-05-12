@@ -9,4 +9,4 @@ def text_lowercase_underscore(text):
     """
     return bool(re.search(r'\W[a-z]+\_[a-z]+\w', text))
 
-import re</s>
+import re

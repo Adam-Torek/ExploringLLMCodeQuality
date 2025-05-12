@@ -15,4 +15,4 @@ def maximum(num1, num2):
     else:
         return num2
 
-assert maximum(5,10) == 10</s>
+assert maximum(5,10) == 10

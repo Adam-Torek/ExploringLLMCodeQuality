@@ -9,4 +9,4 @@ def cal_sum(n):
             sum += i
     return sum
 
-assert cal_sum(9) == 49</s>
+assert cal_sum(9) == 49

@@ -50,4 +50,4 @@ def nth_polite_number(n):
 
 if __name__ == "__main__":
     n = 10
-    print(nth_polite_number(n))</s>
+    print(nth_polite_number(n))

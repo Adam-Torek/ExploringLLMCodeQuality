@@ -7,4 +7,4 @@ def is_empty(dictionary):
     :param dictionary: a dictionary
     :return: True if the dictionary is empty, False otherwise
     """
-    return len(dictionary) == 0</s>
+    return len(dictionary) == 0

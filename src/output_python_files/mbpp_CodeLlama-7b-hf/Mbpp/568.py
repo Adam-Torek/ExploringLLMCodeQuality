@@ -15,4 +15,3 @@ def empty_list(n):
 
 if __name__ == '__main__':
     print(empty_list(5))
-</s>

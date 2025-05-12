@@ -16,4 +16,4 @@ def amicable_numbers_sum(n):
             amicable_numbers.append(i)
     return sum(amicable_numbers)
 
-assert amicable_numbers_sum(999) == 504</s>
+assert amicable_numbers_sum(999) == 504

@@ -20,4 +20,4 @@ def get_lucid(n):
 
 if __name__ == "__main__":
     assert get_lucid(10) == [1, 2, 3, 5, 7]
-    print(get_lucid(20))</s>
+    print(get_lucid(20))

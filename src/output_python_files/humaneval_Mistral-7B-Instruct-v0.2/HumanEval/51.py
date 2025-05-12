@@ -19,4 +19,4 @@ def remove_vowels(text):
 
 if __name__ == "__main__":
     import doctest
-    doctest.testmod()</s>
+    doctest.testmod()

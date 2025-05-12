@@ -19,4 +19,4 @@ def count_Occurrence(tuple_input, list_input):
 assert count_Occurrence(('a', 'a', 'c', 'b', 'd'),['a', 'b']) == 3
 assert count_Occurrence(('a', 'b', 'c', 'd'),['a', 'b']) == 2
 assert count_Occurrence(('a', 'b', 'c', 'd'),['c', 'd']) == 2
-assert count_Occurrence(('a', 'b', 'c', 'd'),['e']) == 0</s>
+assert count_Occurrence(('a', 'b', 'c', 'd'),['e']) == 0

@@ -16,4 +16,4 @@ assert Find_Min_Length([[1,2],[3,4,5]]) == 2
 assert Find_Min_Length([]) == ValueError("List is empty")
 assert Find_Min_Length([[1,2,3],[1,2],[1]]) == 1
 assert Find_Min_Length([[1,2],[1,2],[1,2]]) == 2
-assert Find_Min_Length([[1,2],[1,2,3],[1,2,3,4]]) == 2</s>
+assert Find_Min_Length([[1,2],[1,2,3],[1,2,3,4]]) == 2

@@ -26,4 +26,4 @@ def encrypt(s):
 print(encrypt('hi'))
 print(encrypt('asdfghjkl'))
 print(encrypt('gf'))
-print(encrypt('et'))</s>
+print(encrypt('et'))

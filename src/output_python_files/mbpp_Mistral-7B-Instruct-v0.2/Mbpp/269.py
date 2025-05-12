@@ -16,4 +16,4 @@ if __name__ == "__main__":
     assert ascii_value('!') == 33
     assert ascii_value(' ') == 32
     assert ascii_value('_') == 95
-    print("All tests passed.")</s>
+    print("All tests passed.")

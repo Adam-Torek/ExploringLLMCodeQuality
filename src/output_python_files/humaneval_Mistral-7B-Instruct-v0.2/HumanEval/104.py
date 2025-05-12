@@ -23,4 +23,4 @@ if __name__ == '__main__':
     import doctest
     doctest.testmod()
     print(unique_digits([15, 33, 1422, 1]))
-    print(unique_digits([152, 323, 1422, 10]))</s>
+    print(unique_digits([152, 323, 1422, 10]))

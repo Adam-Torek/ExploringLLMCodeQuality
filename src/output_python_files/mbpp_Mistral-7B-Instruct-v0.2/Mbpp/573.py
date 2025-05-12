@@ -9,4 +9,4 @@ def unique_product(numbers):
         product *= number
     return product
 
-assert unique_product([10, 20, 30, 40, 20, 50, 60, 40]) == 720000000</s>
+assert unique_product([10, 20, 30, 40, 20, 50, 60, 40]) == 720000000

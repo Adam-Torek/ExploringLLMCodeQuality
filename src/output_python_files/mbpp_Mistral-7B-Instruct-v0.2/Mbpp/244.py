@@ -18,4 +18,4 @@ assert next_Perfect_Square(35) == 36
 assert next_Perfect_Square(25) == 26
 assert next_Perfect_Square(16) == 25
 assert next_Perfect_Square(1) == 4
-assert next_Perfect_Square(0) == 1</s>
+assert next_Perfect_Square(0) == 1

@@ -23,4 +23,4 @@ def find_sum(lst):
     # Convert the set back to a list and calculate the sum
     sum_of_unique_elements = sum(list(unique_elements))
 
-    return sum_of_unique_elements</s>
+    return sum_of_unique_elements

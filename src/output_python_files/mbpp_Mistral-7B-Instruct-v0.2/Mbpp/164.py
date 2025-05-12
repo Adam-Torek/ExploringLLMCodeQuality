@@ -26,4 +26,4 @@ def divisors(num):
 if __name__ == "__main__":
     num1 = int(input("Enter first number: "))
     num2 = int(input("Enter second number: "))
-    print(f"The sum of divisors of {num1} is {sum(divisors(num1))} and the sum of divisors of {num2} is {sum(divisors(num2))}. Are they equivalent? {are_equivalent(num1, num2)}")</s>
+    print(f"The sum of divisors of {num1} is {sum(divisors(num1))} and the sum of divisors of {num2} is {sum(divisors(num2))}. Are they equivalent? {are_equivalent(num1, num2)}")

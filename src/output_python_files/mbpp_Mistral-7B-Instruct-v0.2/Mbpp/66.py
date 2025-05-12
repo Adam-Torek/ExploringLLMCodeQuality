@@ -19,4 +19,4 @@ assert pos_count([1,-2,3,-4]) == 2
 assert pos_count([-1, -2, -3, -4]) == 0
 assert pos_count([0, 1, 2, 3]) == 4
 assert pos_count([]) == 0
-assert pos_count([1, 1, 1, 1]) == 4</s>
+assert pos_count([1, 1, 1, 1]) == 4

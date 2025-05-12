@@ -14,4 +14,4 @@ def subtract_elements(tuple1, tuple2):
         result += (tuple1[i] - tuple2[i],)
     return result
 
-assert subtract_elements((10, 4, 5), (2, 5, 18)) == (8, -1, -13)</s>
+assert subtract_elements((10, 4, 5), (2, 5, 18)) == (8, -1, -13)

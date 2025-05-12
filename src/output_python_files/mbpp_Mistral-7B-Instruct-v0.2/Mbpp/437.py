@@ -14,4 +14,4 @@ assert remove_odd("python") == "yhn"
 assert remove_odd("hello") == "l"
 assert remove_odd("12345") == ""
 assert remove_odd("") == ""
-assert remove_odd("abcd") == "d"</s>
+assert remove_odd("abcd") == "d"

@@ -28,4 +28,4 @@ def even_binomial_Coeff_Sum(n):
 
 if __name__ == "__main__":
     import pytest
-    pytest.main([__file__])</s>
+    pytest.main([__file__])

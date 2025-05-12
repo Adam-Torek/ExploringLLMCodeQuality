@@ -52,4 +52,4 @@ if __name__ == "__main__":
     print(find_solution(1, 1, 2))
     print(find_solution(1, 1, 0))
     print(find_solution(1, 1, -2))
-    print(find_solution(1, 1, 1000000007))</s>
+    print(find_solution(1, 1, 1000000007))

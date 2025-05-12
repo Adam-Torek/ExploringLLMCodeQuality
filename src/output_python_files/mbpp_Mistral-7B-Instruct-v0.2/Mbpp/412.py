@@ -12,4 +12,4 @@ def remove_odd(numbers):
 assert remove_odd([1,2,3]) == [2]
 assert remove_odd([4,5,6]) == [4,6]
 assert remove_odd([]) == []
-assert remove_odd([-1,0,1]) == [0]</s>
+assert remove_odd([-1,0,1]) == [0]

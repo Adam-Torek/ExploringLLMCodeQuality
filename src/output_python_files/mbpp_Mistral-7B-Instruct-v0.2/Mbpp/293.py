@@ -19,4 +19,4 @@ def otherside_rightangle(base, height):
 
 # Test the function
 assert otherside_rightangle(7, 8) == 10.63014581273465
-print("Test passed!")</s>
+print("Test passed!")

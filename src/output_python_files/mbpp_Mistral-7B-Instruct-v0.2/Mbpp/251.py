@@ -8,4 +8,4 @@ def insert_element(lst, elem):
     """
     return [elem] + lst
 
-assert insert_element(['Red', 'Green', 'Black'], 'c') == ['c', 'Red', 'c', 'Green', 'c', 'Black']</s>
+assert insert_element(['Red', 'Green', 'Black'], 'c') == ['c', 'Red', 'c', 'Green', 'c', 'Black']

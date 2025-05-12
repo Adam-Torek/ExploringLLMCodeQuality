@@ -10,4 +10,4 @@ def add_lists(lst, tpl):
     :param tpl: tuple to which the list is to be appended
     :return: tuple with the list appended
     """
-    return tpl + lst</s>
+    return tpl + lst

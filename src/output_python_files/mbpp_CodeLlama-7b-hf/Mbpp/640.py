@@ -14,4 +14,4 @@ def remove_parenthesis(string):
 
 
 if __name__ == '__main__':
-    print(remove_parenthesis(["python (chrome)"</s>
+    print(remove_parenthesis(["python (chrome)"

@@ -9,4 +9,4 @@ def sort_matrix(matrix):
 
 # test case
 matrix = [[1, 2, 3], [2, 4, 5], [1, 1, 1]]
-assert sort_matrix(matrix) == [[1, 1, 1], [1, 2, 3], [2, 4, 5]]</s>
+assert sort_matrix(matrix) == [[1, 1, 1], [1, 2, 3], [2, 4, 5]]

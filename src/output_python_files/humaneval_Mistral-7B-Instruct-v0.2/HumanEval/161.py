@@ -32,4 +32,4 @@ print(solve(""))
 print(solve("12345ab"))
 print(solve("12345ab12345"))
 print(solve("12345ab12345AB12345"))
-print(solve("12345ab12345AB12345!@#$%^&*()_+-="))</s>
+print(solve("12345ab12345AB12345!@#$%^&*()_+-="))

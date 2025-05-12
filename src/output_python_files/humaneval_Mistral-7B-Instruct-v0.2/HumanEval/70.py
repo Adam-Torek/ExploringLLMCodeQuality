@@ -27,4 +27,4 @@ print(strange_sort_list([1, 2, 3, 4]))
 print(strange_sort_list([5, 5, 5, 5]))
 print(strange_sort_list([]))
 print(strange_sort_list([1, 1, 1, 1, 1]))
-print(strange_sort_list([10, 9, 8, 7, 6, 5, 4, 3, 2, 1]))</s>
+print(strange_sort_list([10, 9, 8, 7, 6, 5, 4, 3, 2, 1]))

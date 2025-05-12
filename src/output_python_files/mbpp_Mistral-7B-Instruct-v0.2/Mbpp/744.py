@@ -10,4 +10,4 @@ def check_none(tuple):
     for i in tuple:
         if i is None:
             return True
-    return False</s>
+    return False

@@ -13,4 +13,4 @@ def is_decimal(num):
     if re.match(pattern, num):
         return True
     else:
-        return False</s>
+        return False

@@ -19,4 +19,4 @@ def divisible_by_digits(startnum, endnum):
 
 if __name__ == "__main__":
     assert divisible_by_digits(1, 22) == [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22]
-    print("Test passed")</s>
+    print("Test passed")

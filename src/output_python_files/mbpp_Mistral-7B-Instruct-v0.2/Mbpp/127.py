@@ -12,4 +12,4 @@ def multiply_int(num1, num2):
     result = num1 * num2
     return result
 
-assert multiply_int(10, 20) == 200</s>
+assert multiply_int(10, 20) == 200

@@ -17,4 +17,4 @@ def divisor(n):
 
 if __name__ == "__main__":
     assert divisor(15) == 4
-    print("Test passed!")</s>
+    print("Test passed!")

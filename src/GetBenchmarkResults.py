@@ -19,8 +19,13 @@ def main():
         plus_benchmark_score = ast.literal_eval(benchmark_score.split("\n")[-2])["pass@1"]
         normal_benchmark_score = ast.literal_eval(benchmark_score.split("\n")[-4])["pass@1"]
 
-        results_plus = put_score_into_dict(results_plus, model_name, benchmark, quant, plus_benchmark_score)
-        results_normal = put_score_into_dict(results_plus, model_name, benchmark, quant, normal_benchmark_score)
+        if benchmark == "humaneval":
+            benchmark = "HumanEval"
+        elif benchmark == "mbpp":
+            benchmark = "MBPP"
+
+        results_plus = put_score_into_dict(results_plus, model_name, benchmark, quant, plus_benchmark_score, use_plus = True)
+        results_normal = put_score_into_dict(results_normal, model_name, benchmark, quant, normal_benchmark_score)
     
     with open("all_benchmark_results_plus.json","w") as outfile:
         json.dump(results_plus, outfile)

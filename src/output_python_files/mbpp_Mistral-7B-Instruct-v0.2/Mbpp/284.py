@@ -11,4 +11,4 @@ def check_element(lst, elem):
     for i in lst:
         if i != elem:
             return False
-    return True</s>
+    return True

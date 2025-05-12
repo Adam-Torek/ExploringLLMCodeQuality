@@ -16,4 +16,4 @@ def check_type(tuple_):
 assert check_type((5, 6, 7, 3, 5, 6)) == True
 assert check_type((5, 6, 7, 3, 5, "six")) == False
 assert check_type((5, 6, 7, 3, 5, 6.0)) == True
-assert check_type((5, 6, 7, 3, 5, [1, 2, 3])) == False</s>
+assert check_type((5, 6, 7, 3, 5, [1, 2, 3])) == False

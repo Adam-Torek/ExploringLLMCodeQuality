@@ -15,4 +15,4 @@ def extract_string(lst, size):
             extracted_strings.append(string[:size])
     return extracted_strings
 
-assert extract_string(['Python', 'list', 'exercises', 'practice', 'solution'] ,8)==['practice', 'solution']</s>
+assert extract_string(['Python', 'list', 'exercises', 'practice', 'solution'] ,8)==['practice', 'solution']

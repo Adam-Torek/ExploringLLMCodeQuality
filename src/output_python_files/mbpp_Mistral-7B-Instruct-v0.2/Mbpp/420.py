@@ -16,4 +16,4 @@ def cube_sum(n):
         i += 2
     return sum
 
-assert cube_sum(2) == 72</s>
+assert cube_sum(2) == 72

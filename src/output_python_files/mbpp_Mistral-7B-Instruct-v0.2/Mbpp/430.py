@@ -11,4 +11,4 @@ def parabola_directrix(a, h, k):
 assert parabola_directrix(5,3,2) == -198 # Directrix of parabola y^2 = 4x - 11 intersects x-axis at x = -198
 assert parabola_directrix(1,1,1) == -3 # Directrix of parabola y^2 = x intersects x-axis at x = -3
 assert parabola_directrix(3,0,0) == 0 # Directrix of parabola y^2 = x intersects x-axis at x = 0
-assert parabola_directrix(1,1,3) == -2 # Directrix of parabola y^2 = 4(x-1) + 3 intersects x-axis at x = -2</s>
+assert parabola_directrix(1,1,3) == -2 # Directrix of parabola y^2 = 4(x-1) + 3 intersects x-axis at x = -2

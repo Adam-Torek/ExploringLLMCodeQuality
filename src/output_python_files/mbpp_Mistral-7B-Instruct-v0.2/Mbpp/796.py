@@ -8,4 +8,4 @@ def return_sum(dictionary):
         total += value
     return total
 
-assert return_sum({'a': 100, 'b':200, 'c':300}) == 600</s>
+assert return_sum({'a': 100, 'b':200, 'c':300}) == 600

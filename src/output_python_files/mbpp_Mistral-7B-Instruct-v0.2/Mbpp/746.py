@@ -10,4 +10,4 @@ def sector_area(radius, angle):
     else:
         sector_angle = angle / 360 * 2 * math.pi
         area = (sector_angle / 2) * (radius ** 2)
-        return area</s>
+        return area

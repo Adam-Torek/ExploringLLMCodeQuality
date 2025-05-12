@@ -19,4 +19,4 @@ def check_smaller(tuple1, tuple2):
 
 assert check_smaller((1, 2, 3), (2, 3, 4)) == False
 assert check_smaller((1, 2, 3), (1, 2, 4)) == False
-assert check_smaller((1, 2, 3), (1, 2, 3)) == True</s>
+assert check_smaller((1, 2, 3), (1, 2, 3)) == True

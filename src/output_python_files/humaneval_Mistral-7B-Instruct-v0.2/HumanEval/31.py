@@ -45,4 +45,4 @@ def prime_sum(n):
 
 if __name__ == "__main__":
     n = int(input("Enter a number: "))
-    print(prime_sum(n))</s>
+    print(prime_sum(n))

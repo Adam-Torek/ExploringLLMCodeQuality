@@ -13,4 +13,4 @@ def positive_count(arr):
     ratio = count_positive / total_numbers
     return ratio
 
-assert positive_count([0, 1, 2, -1, -5, 6, 0, -3, -2, 3, 4, 6, 8]) == 0.54</s>
+assert positive_count([0, 1, 2, -1, -5, 6, 0, -3, -2, 3, 4, 6, 8]) == 0.54

@@ -9,4 +9,4 @@ def remove_all_spaces(string):
     """
     return string.replace(" ", "")
 
-assert remove_all_spaces('python  program') == 'pythonprogram'</s>
+assert remove_all_spaces('python  program') == 'pythonprogram'

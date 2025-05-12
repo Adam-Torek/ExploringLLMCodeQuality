@@ -10,4 +10,4 @@ def is_magic_square(matrix):
 
 assert is_magic_square([[7, 12, 1, 14], [2, 13, 8, 11], [16, 3, 10, 5], [9, 6, 15, 4]]) == True
 assert is_magic_square([[1, 2, 3, 4], [8, 1, 6, 3], [3, 5, 7, 9], [4, 9, 2, 1]]) == True
-assert is_magic_square([[1, 2, 3, 4], [8, 1, 6, 3], [3, 5, 7, 9], [4, 9, 2, 1]]) == False</s>
+assert is_magic_square([[1, 2, 3, 4], [8, 1, 6, 3], [3, 5, 7, 9], [4, 9, 2, 1]]) == False

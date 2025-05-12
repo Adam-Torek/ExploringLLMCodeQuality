@@ -9,4 +9,4 @@ def two_unique_nums(lists):
     return list(unique_nums)
 
 # Test case
-assert two_unique_nums([[1,2,3,2,3,4,5], [6,7,8,9,1,2,3], [1,1,1,1,1,1,1]]) == [1, 4, 5, 6, 7, 8, 9]</s>
+assert two_unique_nums([[1,2,3,2,3,4,5], [6,7,8,9,1,2,3], [1,1,1,1,1,1,1]]) == [1, 4, 5, 6, 7, 8, 9]

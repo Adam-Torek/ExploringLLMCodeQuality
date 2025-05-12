@@ -11,4 +11,4 @@ def concatenate_tuple(tuple_input):
     delimiter = '-'
     return '-'.join(map(str, tuple_input))
 
-assert concatenate_tuple(("ID", "is", 4, "UTS")) == 'ID-is-4-UTS'</s>
+assert concatenate_tuple(("ID", "is", 4, "UTS")) == 'ID-is-4-UTS'

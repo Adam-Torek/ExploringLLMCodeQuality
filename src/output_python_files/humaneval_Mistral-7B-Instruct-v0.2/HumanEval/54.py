@@ -21,4 +21,4 @@ def same_chars(s0: str, s1: str):
 
 if __name__ == "__main__":
     import doctest
-    doctest.testmod()</s>
+    doctest.testmod()

@@ -10,4 +10,4 @@ def combinations_colors(input_list, n):
     :param n: int
     :return: list of tuples
     """
-    return list(combinations(input_list, n))</s>
+    return list(combinations(input_list, n))

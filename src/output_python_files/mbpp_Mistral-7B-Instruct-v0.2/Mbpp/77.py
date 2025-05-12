@@ -22,4 +22,4 @@ assert is_divisible_by_eleven(11) == True
 assert is_divisible_by_eleven(12) == False
 assert is_divisible_by_eleven(132) == False
 assert is_divisible_by_eleven(111) == True
-assert is_divisible_by_eleven(123456789012345) == True</s>
+assert is_divisible_by_eleven(123456789012345) == True

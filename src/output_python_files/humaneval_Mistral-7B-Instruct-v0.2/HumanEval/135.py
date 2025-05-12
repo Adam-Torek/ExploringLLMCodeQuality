@@ -23,4 +23,4 @@ arr = [5,4,3,2,1]
 print(can_arrange(arr))
 
 arr = [1,3,2,5,4]
-print(can_arrange(arr))</s>
+print(can_arrange(arr))

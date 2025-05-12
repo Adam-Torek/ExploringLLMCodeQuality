@@ -16,4 +16,4 @@ def find_remainder(arr, n):
 
 # Test case
 assert find_remainder([100, 10, 5, 25, 35, 14], 11) == 9
-print("Test case passed")</s>
+print("Test case passed")

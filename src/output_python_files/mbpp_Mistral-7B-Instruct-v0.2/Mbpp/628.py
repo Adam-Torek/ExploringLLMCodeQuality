@@ -7,4 +7,4 @@ def replace_spaces(string):
 
 # Test
 assert replace_spaces("My Name is Dawood") == 'My%20Name%20is%20Dawood'
-print("Test passed!")</s>
+print("Test passed!")

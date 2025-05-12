@@ -29,4 +29,4 @@ def surface_Area(base_edge, height):
 
 # Test the function
 import math
-assert surface_Area(3, 4) == 33</s>
+assert surface_Area(3, 4) == 33

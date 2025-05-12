@@ -27,4 +27,4 @@ def shell_sort(arr):
 if __name__ == "__main__":
     arr = [12, 23, 4, 5, 3, 2, 12, 81, 56, 95]
     assert shell_sort(arr) == [2, 3, 4, 5, 12, 12, 23, 56, 81, 95]
-    print("Test passed!")</s>
+    print("Test passed!")

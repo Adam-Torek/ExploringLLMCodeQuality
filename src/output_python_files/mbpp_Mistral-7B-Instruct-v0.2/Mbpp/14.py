@@ -14,4 +14,4 @@ def find_Volume(length, width, height):
     volume_prism = length * width * height
     return volume_triangle + volume_prism
 
-assert find_Volume(10,8,6) == 240</s>
+assert find_Volume(10,8,6) == 240

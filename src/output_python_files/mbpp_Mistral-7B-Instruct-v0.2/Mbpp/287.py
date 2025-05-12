@@ -17,4 +17,4 @@ if __name__ == "__main__":
     assert square_sum(2) == 20
     assert square_sum(5) == 100
     assert square_sum(10) == 3850
-    print("All tests passed")</s>
+    print("All tests passed")

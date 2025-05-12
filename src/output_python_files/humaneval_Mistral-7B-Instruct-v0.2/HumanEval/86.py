@@ -18,4 +18,4 @@ def anti_shuffle(s):
 print(anti_shuffle("Hi"))
 print(anti_shuffle("hello"))
 print(anti_shuffle("Hello World!!!"))
-print(anti_shuffle("The quick brown fox jumps over the lazy dog"))</s>
+print(anti_shuffle("The quick brown fox jumps over the lazy dog"))

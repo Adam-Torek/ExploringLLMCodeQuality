@@ -18,4 +18,4 @@ def solve(N):
 # Test your code here
 print(solve(1000))
 print(solve(150))
-print(solve(147))</s>
+print(solve(147))
