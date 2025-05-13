@@ -1,0 +1,12 @@
+sonar.projectKey=my_python_project
+sonar.projectName=My Python Project
+sonar.projectVersion=1.0
+
+sonar.sources=C:\Users\ericm\OneDrive\Desktop\ExploringLLMCodeQuality\src\output_python_files
+sonar.tests=tests
+sonar.language=py
+sonar.sourceEncoding=UTF-8
+
+sonar.host.url=http://localhost:9000
+# Optional: use this only if you have a login token
+# sonar.login=cs573-LLM-Quality
